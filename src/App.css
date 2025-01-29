@@ -1,0 +1,76 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.gradient-background {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(360deg,
+        #000000,
+        #1e201e,
+        #3a3737);
+    background-size: 200% 200%;
+
+    -webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+    animation: Animation 5s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+    0% {
+        background-position: 10% 0%;
+    }
+
+    50% {
+        background-position: 91% 100%;
+    }
+
+    100% {
+        background-position: 10% 0%;
+    }
+}
+
+@-moz-keyframes Animation {
+    0% {
+        background-position: 10% 0%;
+    }
+
+    50% {
+        background-position: 91% 100%;
+    }
+
+    100% {
+        background-position: 10% 0%;
+    }
+}
+
+@keyframes Animation {
+    0% {
+        background-position: 10% 0%;
+    }
+
+    50% {
+        background-position: 91% 100%;
+    }
+
+    100% {
+        background-position: 10% 0%;
+    }
+}
+
+.Cartes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: #181b18;
+}

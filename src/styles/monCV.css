@@ -1,0 +1,33 @@
+.elementscv{
+    align-items: center;
+    justify-content: center;
+
+}
+
+.document{
+    text-decoration: none;
+}   
+
+.cv{
+    height: 800px;
+    width: auto;
+}
+
+.telechargement{
+    width: fit-content;
+    height: fit-content;
+}
+
+.telechargement, .telechargement a,span{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.telechargement:hover, .telechargement a:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
