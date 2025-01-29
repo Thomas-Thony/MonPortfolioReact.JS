@@ -15,3 +15,7 @@ Avec yarn:
 ```bash
 yarn create vite
 ```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
