@@ -18,6 +18,43 @@ function Certifs() {
                         </div>
                     </div>
                 </div>
+<div className="responsive">
+  <div className="gallery">
+    <a target="_blank" href="/public/certfs/CNIL/PNG/Certificat_module1_thomas-thony.png">
+      <img src="/public/certfs/CNIL/PNG/Certificat_module1_thomas-thony.png" alt=" Certificat module 1"/>
+    </a>
+    <div className="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div className="responsive">
+  <div className="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="img_forest.jpg" alt="Forest"/>
+    </a>
+    <div className="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div className="responsive">
+  <div className="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="img_lights.jpg" alt="Northern Lights"/>
+    </a>
+    <div className="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div className="responsive">
+  <div className="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="img_mountains.jpg" alt="Mountains"/>
+    </a>
+    <div className="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div className="clearfix"></div>
             </center>
         </>
     );
