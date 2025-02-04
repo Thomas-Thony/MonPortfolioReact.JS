@@ -5,7 +5,7 @@
     font-weight: 600;
 }
 
-.card {
+.carte {
     border: 1px solid hsl(0, 0%, 80%);
     border-radius: 10px;
     box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
@@ -16,13 +16,13 @@
     background-color: #2c2c2c;
 }
 
-.card:hover{
+.carte:hover{
     transform: scale(1.025,1.025);
     transform: rotate3d(1, 1, 0, 10deg);
     transition: 0.25s ease;
 }
 
-.card .card-image {
+.carte .carte-image {
     max-width: 40%;
     max-height: 40%;
     height: auto;
@@ -31,12 +31,12 @@
     perspective: 1000px;
 }
 
-.card .card-titre {
+.carte .carte-titre {
     margin: 0;
     color: hsl(0, 18%, 90%);
 }
 
-.card .card-texte {
+.carte .carte-texte {
     color: hsl(0, 18%, 100%);
 }
 

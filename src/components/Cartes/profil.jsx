@@ -2,13 +2,13 @@ import "../../styles/profil.css";
 import { Link } from 'react-router-dom';
 
 function Profil() {
-    
+
     return (
         <center>
-            <div className="card">
-                <img className="card-image" src="../../../certif.jpg" alt="" />
-                <h2 className="card-titre">Thomas THONY</h2>
-                <p className="card-texte">
+            <div className="carte">
+                <img className="carte-image" src="../../../certif.jpg" alt="" />
+                <h2 className="carte-titre">Thomas THONY</h2>
+                <p className="carte-texte">
                     Passioné par le développement Web, j&apos;aprécie particulièrement le travail d&apos;équipe pour apprendre et être appris par les autres.
                 </p>
                 <div className="btn">
