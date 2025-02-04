@@ -7,6 +7,7 @@ import Navbar from './components/menu';
 import MesProjets from './components/MesProjets';
 import Certifs from './components/certifications';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Profil from './components/Cartes/profil';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
           <Route path="/carte" element={<Carte />} />
           <Route path="/carte2" element={<Carte2/>}/>  
           <Route path="/certifs" element={<Certifs />} />
-          <Route path="/mesProjets" element={<MesProjets/>} />
+          <Route path="/mesProjets" element={<MesProjets />} />
+            <Route path="/monProfil" element={<Profil/>} />  
           <Route path="*" element={<h1>404 - Page non trouvée</h1>} />
         </Routes>
       </div >

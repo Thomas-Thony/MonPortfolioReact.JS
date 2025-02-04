@@ -16,7 +16,7 @@ function Navbar() {
               <Link to="/monCV">A propos</Link>
             </li>
             <li>
-              <Link to="/cv">Contact</Link>
+              <Link to="/monProfil">Contact</Link>
             </li>
             <div className="dropdown">
               <li>
