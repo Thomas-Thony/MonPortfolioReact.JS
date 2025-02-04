@@ -61,6 +61,7 @@
     font-size: 14px;
     background-color: rgb(76, 76, 77);
     border-radius: 20px;
+    align-content: center;
 }
 
 .btn:hover {

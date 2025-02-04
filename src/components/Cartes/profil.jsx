@@ -1,9 +1,10 @@
 import "../../styles/profil.css";
-import { useRef, useEffect } from "react";
-import { Link } from 'react-router-dom';
+import { useRef, useState, useEffect } from "react";
+import Modal from 'react-modal';
 
 function Profil() {
   const carteRef = useRef(null);
+  const [modalIsOpen, setModalIsOpen] = useState(false);
 
   useEffect(() => {
     const handleMouseMove = (e) => {
@@ -36,6 +37,14 @@ function Profil() {
     };
   }, []);
 
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
+
   return (
     <center>
       <div className="perspective">
@@ -46,12 +55,19 @@ function Profil() {
             Passionné par le développement Web, j&apos;apprécie particulièrement le travail d&apos;équipe pour apprendre et être appris par les autres.
           </p>
           <div className="btn">
-            <Link to="/certifs">
-              <p>Voir mes certifications</p>
-            </Link>
+            <p id="contact" onClick={openModal}>Me contacter</p>
           </div>
         </div>
       </div>
+
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
+        contentLabel="Certifications Modal">
+        <h2>Me contacter</h2>
+        <button onClick={closeModal}>Fermer</button>
+        {/* Ajoutez le contenu de votre boîte de dialogue ici */}
+      </Modal>
     </center>
   );
 }
