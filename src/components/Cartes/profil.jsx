@@ -10,9 +10,6 @@ function Profil() {
     const handleMouseMove = (e) => {
       if (carteRef.current) {
         const rect = carteRef.current.getBoundingClientRect();
-        const xCenter = rect.left + rect.width / 2;
-        const yCenter = rect.top + rect.height / 2;
-
         if (e.clientX < rect.left) {
           carteRef.current.classList.add("rotate-left");
           carteRef.current.classList.remove("rotate-right", "rotate-top", "rotate-bottom");
@@ -54,20 +51,22 @@ function Profil() {
           <p className="carte-texte">
             Passionné par le développement Web, j&apos;apprécie particulièrement le travail d&apos;équipe pour apprendre et être appris par les autres.
           </p>
-          <div className="btn">
+          <div className="btn_profil">
             <p id="contact" onClick={openModal}>Me contacter</p>
           </div>
         </div>
       </div>
-
-      <Modal
+      <Modal className="boiteDialogue"
         isOpen={modalIsOpen}
+        overlayClassName="overlay"
         onRequestClose={closeModal}
         contentLabel="Certifications Modal">
         <h2>Me contacter</h2>
-        <button onClick={closeModal}>Fermer</button>
-        {/* Ajoutez le contenu de votre boîte de dialogue ici */}
-      </Modal>
+        <p>Profil LinkedIn :</p>
+        <a href="https://www.linkedin.com/in/thomas-thony">LindekIn</a>
+        <br />
+        <button onClick={closeModal}>Fermer</button>      
+    </Modal>
     </center>
   );
 }

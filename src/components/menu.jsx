@@ -1,14 +1,12 @@
 import "../styles/menu.css";
 import * as React from "react";
-import { Link } from "react-router-dom"; // Importer Link pour une navigation interne
-
+import { Link } from "react-router-dom"; 
 function Navbar() {
   return (
     <center>
       <nav className="NavBar">
         <div className="NavBarItems">
           <ul>
-            {/* Utilisation de <Link> pour une navigation interne */}
             <li>
               <Link to="/">Accueil</Link>
             </li>

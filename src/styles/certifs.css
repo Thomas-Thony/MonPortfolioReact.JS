@@ -3,7 +3,7 @@
     width: 50%;;
 }
 
-.certif_ansii {
+.certif_ANSII {
     opacity: 1;
     display: block;
     width: 100%;
@@ -23,7 +23,7 @@
     text-align: center;
 }
 
-.fonctionImage:hover .certif_ansii {
+.fonctionImage:hover .certif_ANSII {
     opacity: 0.3;
 }
 
