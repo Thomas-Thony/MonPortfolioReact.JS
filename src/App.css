@@ -1,4 +1,4 @@
-*{
+* {
     text-decoration: none;
     list-style: none;
 }
@@ -7,69 +7,42 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    overflow: hidden;
+    /* Empêche le scroll inutile */
 }
 
 .gradient-background {
     height: 100vh;
-    width: auto;
-    background: linear-gradient(360deg,
-        #000000,
-        #1e201e,
-        #3a3737);
+    width: 100%;
+    background: linear-gradient(360deg, #000000, #1e201e, #3a3737);
 
-    -webkit-animation: Animation 5s ease infinite;
-    -moz-animation: Animation 5s ease infinite;
-    animation: Animation 5s ease infinite;
-}
-
-@-webkit-keyframes Animation {
-    0% {
-        background-position: 10% 0%;
-    }
-
-    50% {
-        background-position: 91% 100%;
-    }
-
-    100% {
-        background-position: 10% 0%;
-    }
-}
-
-@-moz-keyframes Animation {
-    0% {
-        background-position: 10% 0%;
-    }
-
-    50% {
-        background-position: 91% 100%;
-    }
-
-    100% {
-        background-position: 10% 0%;
-    }
+    background-size: 200% 200%;
+    /* Augmente la taille du fond pour l'animation */
+    animation: Animation 5s ease infinite alternate;
+    /* Animation fluide avec effet aller-retour */
 }
 
 @keyframes Animation {
     0% {
-        background-position: 10% 0%;
+        background-position: 0% 0%;
     }
 
     50% {
-        background-position: 91% 100%;
+        background-position: 100% 100%;
     }
 
     100% {
-        background-position: 10% 0%;
+        background-position: 0% 0%;
     }
 }
 
-.Cartes{
+.Cartes {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 
-h1{
+h1 {
     color: #181b18;
 }
