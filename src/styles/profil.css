@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
 
 * {
-    font-family: "prompt";
+    font-family: "Prompt", sans-serif;
     font-weight: 600;
+}
+
+.perspective {
+    perspective: 800px;
 }
 
 .carte {
@@ -14,12 +18,24 @@
     max-width: 400px;
     justify-items: center;
     background-color: #2c2c2c;
+    transform-style: preserve-3d;
+    transition: transform 0.25s;
 }
 
-.carte:hover{
-    transform: scale(1.025,1.025);
-    transform: rotate3d(1, 1, 0, 10deg);
-    transition: 0.25s ease;
+.carte.rotate-left {
+    transform: rotateY(-15deg);
+}
+
+.carte.rotate-right {
+    transform: rotateY(15deg);
+}
+
+.carte.rotate-top {
+    transform: rotateX(15deg);
+}
+
+.carte.rotate-bottom {
+    transform: rotateX(-15deg);
 }
 
 .carte .carte-image {
@@ -28,7 +44,6 @@
     height: auto;
     border-radius: 50%;
     margin-bottom: 10px;
-    perspective: 1000px;
 }
 
 .carte .carte-titre {
