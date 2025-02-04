@@ -103,7 +103,7 @@ body{
 .boiteDialogue button{
     width: 100px;
     height: 50px;
-    font-size: 14px;
+    font-size: 16px;
     color: white;
     background-color: rgb(76, 76, 77);
     border-radius: 20px;
@@ -143,4 +143,9 @@ body{
     justify-content: center;
     backdrop-filter: blur(3px);
     pointer-events: all;
+}
+
+.lienLinkedIn{
+    width: 100px;
+    height: 100px;
 }

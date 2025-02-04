@@ -1,6 +1,9 @@
 import "../../styles/profil.css";
 import { useRef, useState, useEffect } from "react";
 import Modal from 'react-modal';
+//Importation des icônes
+import { PiMicrosoftOutlookLogoFill } from "react-icons/pi";
+import { IoLogoLinkedin } from "react-icons/io5";
 
 function Profil() {
   const carteRef = useRef(null);
@@ -62,10 +65,12 @@ function Profil() {
         onRequestClose={closeModal}
         contentLabel="Certifications Modal">
         <h2>Me contacter</h2>
-        <p>Profil LinkedIn :</p>
-        <a href="https://www.linkedin.com/in/thomas-thony">LindekIn</a>
-        <br />
-        <button onClick={closeModal}>Fermer</button>      
+        <a href="https://www.linkedin.com/in/thomas-thony" className="lienLinkedIn"><IoLogoLinkedin /> thomas-thony</a>
+        <br/>
+        <a href="mailto:thomas.thony.69@gmail.com"><PiMicrosoftOutlookLogoFill /> thomas.thony.69@gmail.com</a>
+        <br/>
+        <br/>
+        <center><button onClick={closeModal}>Fermer</button></center>     
     </Modal>
     </center>
   );
