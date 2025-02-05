@@ -9,7 +9,7 @@ function CV() {
                 <br />
                 <br />
                 <div className="telechargement">
-                    <a className='document' href="../../public/CV-Thomas-THONY.pdf" download="CV Thomas THONY.pdf">Télécharger le document PDF/</a>                          
+                    <a className='document' href="../../public/CV-Thomas-THONY.pdf" download="CV Thomas THONY.pdf">Télécharger le document PDF</a>                          
                 </div>
             </div>
         </center>

@@ -3,6 +3,7 @@ import { useRef, useState, useEffect } from "react";
 import Modal from 'react-modal';
 //Importation des icônes
 import { PiMicrosoftOutlookLogoFill } from "react-icons/pi";
+import { FaGithub } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io5";
 
 function Profil() {
@@ -65,9 +66,11 @@ function Profil() {
         onRequestClose={closeModal}
         contentLabel="Certifications Modal">
         <h2>Me contacter</h2>
-        <a href="https://www.linkedin.com/in/thomas-thony" className="lienLinkedIn"><IoLogoLinkedin /> thomas-thony</a>
+        <a href="https://www.linkedin.com/in/thomas-thony" className="lienLinkedIn" target="_blank"><IoLogoLinkedin /> thomas-thony</a>
         <br/>
-        <a href="mailto:thomas.thony.69@gmail.com"><PiMicrosoftOutlookLogoFill /> thomas.thony.69@gmail.com</a>
+        <a href="mailto:thomas.thony.69@gmail.com"><PiMicrosoftOutlookLogoFill/> thomas.thony.69@gmail.com</a>
+        <br />
+        <a href="https://github.com/Thomas-Thony" target="_blank"><FaGithub/> Thomas-Thony</a>
         <br/>
         <br/>
         <center><button onClick={closeModal}>Fermer</button></center>     
