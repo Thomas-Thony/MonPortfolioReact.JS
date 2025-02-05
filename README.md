@@ -25,10 +25,10 @@ Vous l'aurez surement vu, le dossier public n'apparait pas, c'est tout simplemen
 
 **Les packages utilisés**
 
-*React.js : V18.3.1
-*React-dom : V18.3.1
-*React-icons : V5.4.0
-*React-modal : V3.16.3
+* React.js : V18.3.1
+* React-dom : V18.3.1
+* React-icons : V5.4.0
+* React-modal : V3.16.3
 
 ## License
 
