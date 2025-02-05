@@ -29,6 +29,7 @@ Vous l'aurez surement vu, le dossier public n'apparait pas, c'est tout simplemen
 * React-dom : V18.3.1
 * React-icons : V5.4.0
 * React-modal : V3.16.3
+* React-routeur-dom : V7.1.3
 
 ## License
 
