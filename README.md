@@ -17,13 +17,13 @@ yarn create vite
 ```
 
 ## A propos du portfolio
-**Contenu**
+**Contenu : **
 
 A l'heure où sont déposées les dernières mises à jour du site, ce n'est qu'une version beta.
 Evidement, je travaille dessus constement et le site ne peut que s'améliorer.
 Vous l'aurez surement vu, le dossier public n'apparait pas, c'est tout simplement pour montrer que les images utilisées.
 
-**Les packages utilisés**
+**Les packages utilisés : **
 
 * React.js : V18.3.1
 * React-dom : V18.3.1
