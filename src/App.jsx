@@ -5,7 +5,7 @@ import Carte from './components/Cartes/carte';
 import Carte2 from './components/Cartes/carte2';
 import Navbar from './components/menu';
 import MesProjets from './components/MesProjets';
-import Certifs from './components/certifications';
+import Certifs from './components/Certifications/certifications';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Profil from './components/Cartes/profil';
 
