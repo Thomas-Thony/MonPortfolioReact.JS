@@ -13,13 +13,14 @@ body {
     text-transform: uppercase;
     letter-spacing: 1.5px;
     margin-top: 50px;
+    color: aliceblue;
 }
 
 .a_propos h1::after {
     content: "";
     height: 5px;
     width: 200px;
-    background-color: #000000;
+    background-color: #ffffff;
     border-radius: 10px;
     display: block;
     margin: auto;
@@ -63,7 +64,7 @@ body {
 
 .content_a_propos .bouton_a_propos a:hover {
     background: #05595B;
-    color: #fff;
+    color: grey;
     transition: 0.25s ease;
 }
 
