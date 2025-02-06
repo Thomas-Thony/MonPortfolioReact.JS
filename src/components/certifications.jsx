@@ -17,7 +17,12 @@ function Certifs() {
                         <div className="text"><a href="../../public/certfs/Ansii/Certification_Ansii_Thomas-THONY.png" download="Certification_ansii_thomas_thony.png">Télécharger</a>
                         </div>
                     </div>
-                  </div>
+                </div>
+          <hr />
+            <p className="Description">
+                Description sur la CNIL et le RGPD.
+            </p>
+          <hr />
           <center>
             <div className="Certifs_CNIL">
               <div className="responsive">
