@@ -1,6 +1,12 @@
 .Certifs_CNIL {
+    position: static;
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
+}
+
+.Certifs_CNIL, .dernierModule{
+    flex-grow: 1;
 }
 
 .responsive {

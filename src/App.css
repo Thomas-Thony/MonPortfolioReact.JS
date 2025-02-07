@@ -3,19 +3,29 @@
     list-style: none;
 }
 
+html,
 body {
+    height: 100%;
+    min-height: 100%;
     margin: 0;
     padding: 0;
+}
+
+body {
+    padding: 0;
     height: 100%;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .gradient-background {
+    overflow: auto;
     min-height: 100vh;
+    height: auto !important;
     width: 100%;
     background: linear-gradient(360deg, #000000, #1e201e, #3a3737);
     background-size: 200% 200%;
     animation: Animation 5s ease infinite alternate;
+    
 }
 
 @keyframes Animation {
