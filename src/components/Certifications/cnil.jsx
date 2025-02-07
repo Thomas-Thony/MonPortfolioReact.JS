@@ -9,7 +9,6 @@ function CNIL() {
                 Description sur la CNIL et le RGPD.
             </p>
         <hr/>
-      <br />
       <div className="Certifs_CNIL">
         <div className="responsive">
           <div className="gallery">
@@ -97,7 +96,7 @@ function CNIL() {
             </div>
           </div>
         </div>
-          </div>
+      </div>
           
       <div className="dernierModule">
         <div className="responsive">

@@ -34,7 +34,6 @@
     }
 }
 
-
 .certif_cnil {
     align-items: center;
     text-align: center;
@@ -66,7 +65,7 @@
 
 .fonctionImage:hover .millieu_cnil .text_cnil a{
     top: 50%;
-        left: 50%;
+    left: 50%;
 }
 
 .text_cnil{
@@ -94,6 +93,7 @@
     text-align: center;
 }
 
-.dernierModule{
-    
+.dernierModule {
+    float: left;
+    padding-left: 25%;
 }
