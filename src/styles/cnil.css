@@ -1,8 +1,12 @@
 .Certifs_CNIL {
     position: static;
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* Centrage des éléments */
+        gap: 20px;
+        /* Optionnel : ajoute un espacement entre les éléments */
 }
 
 .Certifs_CNIL, .dernierModule{
@@ -11,7 +15,9 @@
 
 .responsive {
     width: calc(50% - 20px);
-    display: flex;
+        display: flex;
+        justify-content: center;
+        /* Centrer l'image et son contenu */
 }
 
 .gallery {
@@ -61,6 +67,27 @@
     opacity: 0;
 }
 
+.fonctionImage {
+    /* Ajout de position relative */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.millieu_cnil {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: 0.5s ease;
+    opacity: 0;
+    width: 100%;
+    /* Ajustement pour s'adapter */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .fonctionImage:hover .certif_cnil {
     opacity: 0.3;
 }
@@ -101,5 +128,6 @@
 
 .dernierModule {
     float: left;
-    padding-left: 25%;
+    padding-left: 31.5%;
+    padding-top: 1%;
 }

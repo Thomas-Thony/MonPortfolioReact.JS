@@ -8,7 +8,7 @@ function CNIL() {
             <p className="Description">
                 Description sur la CNIL et le RGPD.
             </p>
-        <hr/>
+      <hr />
       <div className="Certifs_CNIL">
         <div className="responsive">
           <div className="gallery">
@@ -22,8 +22,7 @@ function CNIL() {
                 <div className="text_cnil">
                   <a
                     href="/public/certfs/CNIL/PNG/Certificat_module1_thomas-thony.png"
-                    download="Certificat_module1_thomas-thony.png"
-                  >
+                    download="Certificat_module1_thomas-thony.png">
                     Module 1
                   </a>
                 </div>
@@ -120,7 +119,7 @@ function CNIL() {
             </div>
           </div>
         </div>  
-    </div>
+        </div>
     </>
   );
 }
