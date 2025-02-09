@@ -8,7 +8,6 @@ import MesProjets from './components/MesProjets';
 import Certifs from './components/Certifications/certifications';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Profil from './components/Cartes/profil';
-import Carousel from './components/Projects/Components/Carousel';
 
 function App() {
   return (
@@ -24,7 +23,6 @@ function App() {
           <Route path="/certifs" element={<Certifs />} />
           <Route path="/mesProjets" element={<MesProjets />} />
           <Route path="/monProfil" element={<Profil />} />  
-            <Route path="carousel" element={<Carousel/>} />  
           <Route path="*" element={<h1>404 - Page non trouvée</h1>} />
         </Routes>
       </div >

@@ -1,7 +1,7 @@
 import React from "react";
 import "../../../styles/Carousel.css";
 
-function Carousel() {
+function CarouselWeb() {
     const logos = [
         { src: "public/assets/html.png", alt: "Logo HTML 5" },
         { src: "public/assets/css-3.png", alt: "Logo CSS 3" },
@@ -26,4 +26,4 @@ function Carousel() {
     );
 }
 
-export default Carousel;
+export default CarouselWeb;

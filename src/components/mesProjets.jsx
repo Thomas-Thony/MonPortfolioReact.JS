@@ -1,5 +1,7 @@
 import * as React from "react";
-import Carousel from "./Projects/Components/Carousel"
+import CarouselWeb from "./Projects/Components/CarouselWeb";
+import CarouselDivers from "./Projects/Components/CarouselDivers";
+import CarouselJS from "./Projects/Components/CarouselJS";
 import "../styles/mesProjets.css"
 
 function MesProjets() {
@@ -27,7 +29,7 @@ function MesProjets() {
                     </center>
                     <br />
                 </div>
-                <Carousel/>
+                <CarouselWeb/>
             </div>
             <div className="sectionJS">
                 <div className="sectionJSContent">
@@ -42,6 +44,7 @@ function MesProjets() {
                     </center>
                     <br />
                 </div>
+                <CarouselJS/>
             </div>
             <div className="sectionDivers">
                 <div className="sectionDiversContent">
@@ -55,6 +58,7 @@ function MesProjets() {
                         <a className="voirProjets" href="#">Voir les projets divers</a>
                     </center>
                     <br />
+                    <CarouselDivers/>
                 </div>
             </div>
         </>
