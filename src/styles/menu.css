@@ -27,7 +27,17 @@
     text-decoration: none;
 }
 
-.NavBarItems ul li:hover {
+.NavBarItems ul .li{
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    margin: 10px;
+    border-radius: 12px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.NavBarItems ul .li:hover {
     background-color: gray;
     transition: 0.3s ease-out;
     cursor: pointer;
@@ -38,7 +48,7 @@
     display: inline-block;
 }
 
-.dropdown-items {
+.dropdown-items{
     display: none;
     position: absolute;
     background-color: #2c2c2c;
@@ -46,7 +56,7 @@
     z-index: 1;
 }
 
-.dropdown:hover .dropdown-items {
+.dropdown:hover .dropdown-items{
     display: block;
     transition: 0.3s;
 } 

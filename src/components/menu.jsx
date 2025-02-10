@@ -21,9 +21,9 @@ function Navbar() {
                <Link to="/mesProjets">Mes projets &#9207;</Link>
               </li>
               <div className="dropdown-items">
-                <li>Projets Web</li>
-                <li>Projets Javascript</li>
-                <li>Autres projets</li>
+                <Link className="li" to="/projetsWeb">Projets Web</Link>
+                <Link className="li" to="/projetsJS">Projets Javascript</Link>
+                <Link className="li" to="/projetsDivers">Autres projets</Link>
               </div>
             </div>
             <li>Ma veille</li>

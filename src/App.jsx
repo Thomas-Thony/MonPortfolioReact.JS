@@ -5,19 +5,19 @@ import Carte from './components/Cartes/carte';
 import Carte2 from './components/Cartes/carte2';
 import Navbar from './components/menu';
 import MesProjets from './components/mesProjets';
-import Certifs from './components/Certifications/certifications';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Profil from './components/Cartes/profil';
 import ProjetsWeb from './components/Projects/projetsWeb';
 import ProjetsJS from './components/Projects/projetsJS';
 import ProjetsDivers from './components/Projects/projetsDivers';
+import Certifs from './components/Certifications/certifications';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Profil from './components/Cartes/profil';
 
 function App() {
   return (
     <>
 <BrowserRouter>
     <div className="gradient-background">
-        <Navbar />
+        <Navbar/>
         <Routes>
           <Route path="/" element={<Accueil />} />
           <Route path="/monCV" element={<CV />} />
