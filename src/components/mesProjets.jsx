@@ -1,8 +1,9 @@
 import * as React from "react";
+import { Link } from "react-router-dom";
 import CarouselWeb from "./Projects/Components/CarouselWeb";
 import CarouselDivers from "./Projects/Components/CarouselDivers";
 import CarouselJS from "./Projects/Components/CarouselJS";
-import "../styles/mesProjets.css"
+import "../styles/mesProjets.css";
 
 function MesProjets() {
     return (
@@ -25,7 +26,7 @@ function MesProjets() {
                     </p>
                     <br />
                     <center>
-                        <a className="voirProjets" href="#">Voir les projets Web</a>
+                        <Link className="voirProjets" to="/projetsWeb">Voir les projets Web</Link>
                     </center>
                     <br />
                 </div>
@@ -36,11 +37,13 @@ function MesProjets() {
                     <h1>Projets Javascript</h1>
                     <h3 style={{ paddingLeft: 10, fontWeight: "900",}}>Mes premiers projets</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi accusamus quo officia? Hic debitis dolorum provident alias, quisquam, illo nam facere temporibus corporis consequuntur est in at, nihil quam voluptatem!
+                        En dérivation du développement Web, le javascript sert à programmer des scripts qui interagissent avec l&apos;utilisateur sur d&apos;autres domaines. Par exemple sur les réseaux sociaux.
+                        Grâce à la librairie Discord.js, j&apos;ai pu créer des robots pour le réseau social Discord. Ces robots étaient dans des serveurs et utilisaient des commandes, des rôles et des permissions.
+                        Chaque commande avait une permission de rôle et de salon spécifique d&apos;utilisation.
                     </p>
                     <br />
                     <center>
-                        <a className="voirProjets" href="#">Voir les projets javascript</a>
+                        <Link className="voirProjets" to="/projetsJS">Voir les projets javascript</Link>
                     </center>
                     <br />
                 </div>
@@ -51,11 +54,11 @@ function MesProjets() {
                     <h1>Projets Divers</h1>
                     <h3 style={{ paddingLeft: 10, fontWeight: "900",}}>Mes premiers projets</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quam a, possimus magni minima, quis odit ab aliquid labore incidunt ut eius ipsam id? Magnam nihil delectus facere soluta quidem.
+                        Du Python, du Arduino, même Unity, j&apos;ai essayé d&apos;autres langages et plateformes de développement. Pour faire des logiciels de tout type : Jeux, applications, et programmes d&apos;automates.
                     </p>
                     <br />
                     <center>
-                        <a className="voirProjets" href="#">Voir les projets divers</a>
+                        <Link className="voirProjets" to="/projetsDivers">Voir les projets divers</Link>
                     </center>
                     <br />
                     <CarouselDivers/>
