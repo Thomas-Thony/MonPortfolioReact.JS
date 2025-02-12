@@ -4,6 +4,7 @@ import "../../styles/projetsDivers.css";
 function ProjetsDivers() {
     return (
         <>
+            <h1>Projets Divers</h1>
         </>
     );
 }

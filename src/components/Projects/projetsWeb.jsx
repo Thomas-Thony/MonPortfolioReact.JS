@@ -4,6 +4,7 @@ import "../../styles/projetsWeb.css";
 function ProjetsWeb() {
     return (
         <>
+        <h1 style={{color: "white"}}>Mes projets Web</h1>
             <div className="presentationDeveloppement">
                 <p>
                     Le développement Web se divise principalement en trois catégories : le front-end, le back-end et le full-stack. Le front-end concerne tout ce que l&apos;utilisateur voit et avec quoi il interagit sur un site, comme les designs, les boutons et les animations. Les technologies utilisées incluent HTML, CSS et JavaScript, qui permettent de créer une interface attrayante et fonctionnelle.
