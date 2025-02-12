@@ -8,7 +8,7 @@ function Carte2(){
         <div className="card">
             <img className="card-image" src="../../../certif.jpg" alt=""></img> 
             <h2 className="card-titre">Mes certifications</h2>
-            <p className="card-texte">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, adipisci quibusdam doloremque maiores quaerat tenetur ad, tempora corrupti earum quam quisquam repellat sed quidem eos quasi aperiam facilis maxime quia.</p>
+            <p className="card-texte">Une certification informatique est un moyen de valider des compétences et des connaissances dans le domaine des technologies de l&apos;information.</p>
             <center>
                 <div className="btn">
                     <Link to="/certifs"><p>Voir mes certifications</p></Link>
