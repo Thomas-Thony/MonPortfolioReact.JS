@@ -114,11 +114,12 @@
 }
 
 .Description {
-    text-align: center;
+    text-align: justify;
+    margin: 20px;
 }
 
 .dernierModule {
     float: left;
     padding-left: 31.5%;
-    padding-top: 1%;
+    padding-top: 0.25%;
 }

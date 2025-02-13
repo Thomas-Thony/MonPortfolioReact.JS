@@ -9,6 +9,7 @@
 
 .certif_ansii {
     align-items: center;
+    border-radius: 10px;
     text-align: center;
     opacity: 1;
     display: block;
@@ -51,5 +52,6 @@
 }
 
 .Description {
-    text-align: center;
+    text-align: justify;
+    margin: 20px;
 }

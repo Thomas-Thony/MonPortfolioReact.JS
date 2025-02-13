@@ -6,8 +6,7 @@ function Ansii() {
         <>
         <hr/>
         <p className="Description">
-            Fondée en 2009, l&apos;agence nationale de la sécurité des systèmes d&apos;information (ANSSI) est l&apos;autorité nationale en matière de cybersécurité.
-            Son objectif est de comprendre, prévenir et répondre au risque cyber.
+            L’ANSSI est l’organisme public chargé de la cybersécurité en France. Son objectif est de prévenir, détecter et répondre aux cybermenaces qui visent les institutions de l&apos;État, les entreprises stratégiques et les infrastructures vitales. Elle conseille les organisations sur les bonnes pratiques de sécurité, émet des recommandations et intervient en cas de cyberattaques pour limiter les impacts.
         </p>
         <hr/>
         <br/>
