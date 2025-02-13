@@ -3,6 +3,90 @@
     color: white;
 }
 
-.sectionProjetWeb{
-    background-color: #2c2c2c;
+article{
+    width: 600px;
+    height: auto;
+}
+
+.projects__card{
+    background-color: rgb(59, 59, 59);
+    padding: 1.5rem;
+    border-radius: 2rem;   
+}
+
+.projects__image{
+    display: block;
+    overflow: hidden;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.projects__img{
+    transition: transform 0.4s;
+}
+
+.projects__name{
+    color: wwhite;
+    font-size: 30px;
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.projects__name img{
+    width: 100px;
+    height: auto;
+}
+
+.projects__description{
+    color: white;
+    margin-bottom: 1.5rem ;
+}
+
+.projects__skill{
+    width: 2rem;
+    transition: transform 0.4s;
+}
+
+.projects__skill:hover{
+    transform: translateY(-0.25rem);
+    cursor: pointer;
+}
+
+.projects__skills{
+    width: max-content;
+    height: 34px;
+    background-color: rgb(59, 59, 59);
+    padding-inline: 0.75rem;
+    display: flex;
+    align-items: center;
+    column-gap: 0.75rem;
+    border-radius: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.projects__button{
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    transition: color  0.4s;
+}
+
+.projects__button .i{
+    font-size: 1.25rem;
+    color: white;
+}
+
+.projects__button span{
+    font-weight: 600;
+    color: white;
+}
+
+.projects__button:hover{
+    color: rgb(192, 0, 0);
+}
+
+.projects__card:hover .projects__img{
+    transform: scale(1.2);
+
 }
