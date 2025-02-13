@@ -4,6 +4,7 @@ import "../../styles/projetsJS.css";
 function ProjetsJS() {
     return (
         <>
+            <h1>Projets Javascript</h1>
         </>
     );
 }

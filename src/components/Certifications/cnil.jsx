@@ -6,7 +6,7 @@ function CNIL() {
       <>
         <hr/>
             <p className="Description">
-                Description sur la CNIL et le RGPD.
+              La CNIL est une autorité administrative indépendante chargée de veiller à la protection des données personnelles et au respect de la vie privée en France. Elle joue un rôle central dans l’application du RGPD (Règlement Général sur la Protection des Données), un cadre juridique européen qui encadre la collecte et le traitement des données personnelles afin de renforcer les droits des citoyens. La CNIL informe les citoyens sur leurs droits, accompagne les organisations dans leur mise en conformité et peut sanctionner les manquements. À travers ses actions, elle garantit un usage responsable des données numériques et veille à la préservation des libertés individuelles dans un environnement numérique
             </p>
       <hr />
       <div className="Certifs_CNIL">
