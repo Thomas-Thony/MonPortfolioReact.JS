@@ -6,7 +6,7 @@ function Ansii() {
         <>
         <hr/>
         <p className="Description">
-            Fondée en 2009, l&apos;agence nationale de la sécurité des systèmes d&apos;information (ANSSI) est l&apos;autorité nationale en matière decybersécurité.
+            Fondée en 2009, l&apos;agence nationale de la sécurité des systèmes d&apos;information (ANSSI) est l&apos;autorité nationale en matière de cybersécurité.
             Son objectif est de comprendre, prévenir et répondre au risque cyber.
         </p>
         <hr/>
