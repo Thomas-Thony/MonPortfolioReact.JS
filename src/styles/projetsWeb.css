@@ -32,6 +32,10 @@ article{
     margin-bottom: 0.5rem;
 }
 
+.projects__name{
+    margin-top: 20px;
+}
+
 .projects__name img{
     width: 100px;
     height: auto;
@@ -70,6 +74,7 @@ article{
     align-items: center;
     column-gap: 0.5rem;
     transition: color  0.4s;
+    padding: 10px;
 }
 
 .projects__button .i{
@@ -82,8 +87,10 @@ article{
     color: white;
 }
 
-.projects__button:hover{
-    color: rgb(192, 0, 0);
+.projects__button:hover  {
+    border-radius: 4rem;
+    transition: 0.4s;
+    background-color: rgb(100,100,100);
 }
 
 .projects__card:hover .projects__img{
