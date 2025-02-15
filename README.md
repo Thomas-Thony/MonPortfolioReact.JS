@@ -5,7 +5,9 @@ Dans le but de devenir un développeur Web complet (Ou full-stack si vous préf�
 
 ## Créer un projet React.js avec Vite
 
-Dans le terminal, exécutez la commande suivante: 
+**_Dans un premier temps, assurez vous d'avoir Node.js installé sur votre machine._ **
+
+Ensuite, dans le terminal, exécutez la commande suivante: 
 
 Avec npm:
 ```bash
