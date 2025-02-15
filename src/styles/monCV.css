@@ -1,64 +1,16 @@
-.elementscv{
-    align-items: center;
-    justify-content: center;
-}
-
-.telechargement {
-    align-items: center;
-    text-align: center;
-    opacity: 1;
-    width: 100%;
-    height: auto;
-    transition: 0.5s ease;
-    backface-visibility: hidden;
-}
-
 .document {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
     transition: 0.5s ease;
-    opacity: 0;
     color: black;
     background-color: white;
     border-radius: 12px;
     width: auto;
     padding: 10px;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.fonctionImage {    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 10px;    
+    text-align: center;
 }
 
 .document:hover{
     background-color: black;
     color: white;
     transition: 0.25s ease;
-}
-
-.fonctionImage:hover .document{
-    opacity: 1;
-}
-
-.fonctionImage:hover .document a {
-    top: 50%;
-    left: 50%;
-}
-
-.elementscv .fonctionImage .cv {
-    width: 550px;
-    height: auto;
-    border-radius: 10px;
-    text-align: center;
-    justify-items: center;
-    justify-content: center;
 }
