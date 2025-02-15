@@ -3,12 +3,12 @@ import "../../../styles/Carousel.css";
 
 function CarouselJS() {
     const logos = [
-        { src: "public/assets/js.png", alt: "Logo Javascript" },
-        { src: "public/assets/discordjs.png", alt: "Logo Discord.js" },
-        { src: "public/assets/science.png", alt: "Logo React.js" },
-        { src: "public/assets/js.png", alt: "Logo Javascript" },
-        { src: "public/assets/discordjs.png", alt: "Logo Discord.js" },
-        { src: "public/assets/science.png", alt: "Logo React.js" },
+        { src: "/assets/js.png", alt: "Logo Javascript" },
+        { src: "/assets/discordjs.png", alt: "Logo Discord.js" },
+        { src: "/assets/science.png", alt: "Logo React.js" },
+        { src: "/assets/js.png", alt: "Logo Javascript" },
+        { src: "/assets/discordjs.png", alt: "Logo Discord.js" },
+        { src: "/assets/science.png", alt: "Logo React.js" },
     ];
 
     return (

@@ -3,14 +3,14 @@ import "../../../styles/Carousel.css";
 
 function CarouselWeb() {
     const logos = [
-        { src: "public/assets/html.png", alt: "Logo HTML 5" },
-        { src: "public/assets/css-3.png", alt: "Logo CSS 3" },
-        { src: "public/assets/js.png", alt: "Logo Javascript " },
-        { src: "public/assets/bootstrap.png", alt: "Logo Bootstrap" },
-        { src: "public/assets/science.png", alt: "Logo React" },
-        { src: "public/assets/php.png", alt: "Logo PHP " },
-        { src: "public/assets/mysql.png", alt: "Logo MySQL" },
-        { src: "public/assets/Looping.svg", alt: "Logo Looping" },
+        { src: "/assets/html.png", alt: "Logo HTML 5" },
+        { src: "/assets/css-3.png", alt: "Logo CSS 3" },
+        { src: "/assets/js.png", alt: "Logo Javascript " },
+        { src: "/assets/bootstrap.png", alt: "Logo Bootstrap" },
+        { src: "/assets/science.png", alt: "Logo React" },
+        { src: "/assets/php.png", alt: "Logo PHP " },
+        { src: "/assets/mysql.png", alt: "Logo MySQL" },
+        { src: "/assets/Looping.svg", alt: "Logo Looping" },
     ];
 
     return (

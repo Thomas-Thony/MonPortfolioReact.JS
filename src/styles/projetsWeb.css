@@ -37,7 +37,7 @@ article{
 }
 
 .projects__name img{
-    width: 100px;
+    width: 80px;
     height: auto;
 }
 
@@ -95,5 +95,8 @@ article{
 
 .projects__card:hover .projects__img{
     transform: scale(1.2);
+}
 
+.section__title{
+    margin: 20px;
 }

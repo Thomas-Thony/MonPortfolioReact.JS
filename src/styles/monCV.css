@@ -6,11 +6,143 @@
     width: auto;
     padding: 10px;
     margin: 10px;    
-    text-align: center;
 }
 
 .document:hover{
     background-color: black;
     color: white;
     transition: 0.25s ease;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.inner{
+    padding-top: 20px;
+}
+
+.header h1{
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+    font-size: 40px;
+    position: relative;
+}
+
+.header h2{
+    text-align: center;
+}
+
+.header::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 100px;
+    background-color: white;
+}
+
+.containerSkills{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+}
+
+.skill-box{
+    padding: 1rem;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.skill-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skill-title::after{
+    content: '';
+    bottom: 0;
+    right: 50%;
+    width: 0;
+    height: 4px;
+    border-radius: 2px 0 0 2px;
+    background-color: white;
+    transition: 0.25s;
+}
+
+.skill-title::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 4px;
+    border-radius: 0 2px 2px 0;
+    background-color: white;
+    transition: 0.25s;
+}
+
+.imgSkill{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.25s;
+}
+
+.imgSkill::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 90px;
+    background-color: rgba(100, 100, 100, 0.5);
+    border-radius: 45px 0 0 45px;
+}
+
+.skill-title h3{
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.skill-icon{
+    width: 50px;    
+}
+
+.skill-box:hover > .skill-title::after, .skill-box:hover > .skill-title::after{
+    width: 35px;
+}
+
+.skill-box:hover .imgSkill{
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width: 990px) {
+    .containerSkills{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem 50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .containerSkills {
+        grid-template-columns: 1fr;
+    }
 }

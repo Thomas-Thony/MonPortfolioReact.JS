@@ -3,14 +3,14 @@ import "../../../styles/Carousel.css";
 
 function CarouselDivers() {
     const logos = [
-        {src: "public/assets/arduino-1.svg", alt: "Logo Arduino" },
-        {src: "public/assets/python.png", alt: "Logo Python" },
-        {src: "public/assets/unity.png", alt: "Logo Unity 2D" },
-        {src: "public/assets/androidStudio.png", alt: "Logo Android Studio"},
-        {src: "public/assets/arduino-1.svg", alt: "Logo Arduino" },
-        {src: "public/assets/python.png", alt: "Logo Python" },
-        {src: "public/assets/unity.png", alt: "Logo Unity 2D" },
-        {src: "public/assets/androidStudio.png", alt: "Logo Android Studio"},
+        {src: "/assets/arduino-1.svg", alt: "Logo Arduino" },
+        {src: "/assets/python.png", alt: "Logo Python" },
+        {src: "/assets/unity.png", alt: "Logo Unity 2D" },
+        {src: "/assets/androidStudio.png", alt: "Logo Android Studio"},
+        {src: "/assets/arduino-1.svg", alt: "Logo Arduino" },
+        {src: "/assets/python.png", alt: "Logo Python" },
+        {src: "/assets/unity.png", alt: "Logo Unity 2D" },
+        {src: "/assets/androidStudio.png", alt: "Logo Android Studio"},
     ];
 
     return (
