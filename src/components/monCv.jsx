@@ -54,7 +54,7 @@ function CV() {
                             </div>
                             <h3>PHP</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dignissimos blanditiis minima, fugiat hic suscipit asperiores eaque omnis tenetur repudiandae quos? Ullam nobis quia odit amet minima. Numquam, cupiditate reiciendis.</p>
+                        <p>Le PHP, ou Hypertext Preprocessor, est un langage de script côté serveur largement utilisé pour le développement web. Il permet de créer des pages web dynamiques en intégrant des fonctionnalités interactives et en facilitant la gestion des bases de données.</p>
                     </div>
                     <div className="skill-box">
                         <div className="skill-title">
@@ -63,7 +63,7 @@ function CV() {
                             </div>
                             <h3>MySQL</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dignissimos blanditiis minima, fugiat hic suscipit asperiores eaque omnis tenetur repudiandae quos? Ullam nobis quia odit amet minima. Numquam, cupiditate reiciendis.</p>
+                        <p>MySQL est un système de gestion de bases de données relationnelles open source qui permet de stocker, organiser et récupérer des données de manière efficace. Utilisé en collaboration avec des langages de programmation web comme le PHP, MySQL est un langage très efficace pour le développement d&apos;applications web nécessitant une gestion des données. </p>
                     </div>
                     <div className="skill-box">
                         <div className="skill-title">
@@ -72,7 +72,7 @@ function CV() {
                             </div>
                             <h3>React.js</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dignissimos blanditiis minima, fugiat hic suscipit asperiores eaque omnis tenetur repudiandae quos? Ullam nobis quia odit amet minima. Numquam, cupiditate reiciendis.</p>
+                        <p>React.js est une bibliothèque JavaScript développée par Facebook, conçue pour faciliter la création d&apos;interfaces utilisateur interactives et dynamiques. En adoptant une approche basée sur des composants, React.js permet aux développeurs de construire des applications web modulaires et réutilisables, ce qui améliore la maintenabilité et la performance des projets.</p>
                     </div>
                 </div>
                 <hr />
@@ -87,7 +87,7 @@ function CV() {
                             </div>
                             <h3>Arduino/C++</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dignissimos blanditiis minima, fugiat hic suscipit asperiores eaque omnis tenetur repudiandae quos? Ullam nobis quia odit amet minima. Numquam, cupiditate reiciendis.</p>
+                        <p>Arduino est une plateforme open-source de développement électronique qui permet de concevoir et de programmer facilement des systèmes embarqués. Elle se compose de cartes électroniques équipées d’un microcontrôleur et d’un environnement de programmation simplifié. Grâce à ses nombreuses bibliothèques et à sa compatibilité avec divers capteurs et modules, Arduino est largement utilisé pour le prototypage rapide, l’apprentissage de l’électronique et la création d’objets interactifs..</p>
                     </div>
                     <div className="skill-box">
                         <div className="skill-title">
@@ -96,7 +96,7 @@ function CV() {
                             </div>
                             <h3>Python</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dignissimos blanditiis minima, fugiat hic suscipit asperiores eaque omnis tenetur repudiandae quos? Ullam nobis quia odit amet minima. Numquam, cupiditate reiciendis.</p>
+                        <p>Python est un langage de programmation interprété, polyvalent et facile à apprendre, apprécié pour sa syntaxe claire et concise. Il est utilisé dans de nombreux domaines tels que le développement web, l’intelligence artificielle, l’analyse de données et l’automatisation. Grâce à son vaste écosystème de bibliothèques et à sa forte communauté, Python permet de développer des applications allant des scripts simples aux logiciels complexes, tout en favorisant une approche rapide et efficace de la programmation.</p>
                     </div>
                     <div className="skill-box">
                         <div className="skill-title">
@@ -105,7 +105,7 @@ function CV() {
                             </div>
                             <h3>Unity 2D/C#</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dignissimos blanditiis minima, fugiat hic suscipit asperiores eaque omnis tenetur repudiandae quos? Ullam nobis quia odit amet minima. Numquam, cupiditate reiciendis.</p>
+                        <p>C# est un langage de programmation orienté objet développé par Microsoft, principalement utilisé pour la création d’applications Windows, de jeux vidéo avec Unity et de solutions web avec .NET. Il se distingue par sa robustesse, sa gestion efficace de la mémoire et ses fonctionnalités modernes adaptées au développement d’applications performantes et sécurisées. Grâce à son intégration dans l’écosystème Microsoft, C# est un choix privilégié pour les entreprises et les développeurs souhaitant concevoir des logiciels professionnels et évolutifs.</p>
                     </div>
                 </div>
             </div>
