@@ -1,3 +1,7 @@
+.presentationCV{
+    margin: 10px;
+}
+
 .document {
     transition: 0.5s ease;
     color: black;
@@ -12,12 +16,6 @@
     background-color: black;
     color: white;
     transition: 0.25s ease;
-}
-
-body{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
 }
 
 .inner{
