@@ -54,7 +54,7 @@ function CV() {
                             </div>
                             <h3>PHP</h3>
                         </div>
-                        <p>Le PHP, ou Hypertext Preprocessor, est un langage de script côté serveur largement utilisé pour le développement web. Il permet de créer des pages web dynamiques en intégrant des fonctionnalités interactives et en facilitant la gestion des bases de données.</p>
+                        <p>Le PHP, ou Hypertext Preprocessor, est un langage de script côté serveur largement utilisé pour le développement web. Il permet de créer des pages web dynamiques en intégrant des fonctionnalités interactives et en facilitant la gestion des bases de données. On dit que PHP permet de créer des pages dites dynamiques, contrairement au simple HTML qui crée des pages statiques.</p>
                     </div>
                     <div className="skill-box">
                         <div className="skill-title">
