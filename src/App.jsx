@@ -11,6 +11,7 @@ import ProjetsDivers from './components/Projects/projetsDivers';
 import Certifs from './components/Certifications/certifications';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Profil from './components/Cartes/profil';
+import AutresCertifs from './components/autresCertifs';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/carte" element={<Carte />} />
           <Route path="/carte2" element={<Carte2/>}/>  
           <Route path="/certifs" element={<Certifs />} />
+          <Route path="/autresCertifs" element={<AutresCertifs/>}/>
           <Route path="/mesProjets" element={<MesProjets />} />
           <Route path="/monProfil" element={<Profil />} />  
           <Route path="/projetsWeb" element={<ProjetsWeb />} /> 

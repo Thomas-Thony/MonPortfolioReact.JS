@@ -1,12 +1,32 @@
-body{
-    height: 100%;
-    width: 100%;
-    overflow: auto;
-    &::-webkit-scrollbar {
-        width: 0.7rem;
-        max-height: 2rem;
-        &-thumb {
-            background-color: rgba(255, 255, 255, 0.6);
-        }
-    }
+.containerIMG{
+    display: flex;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.galleryDisplay {
+    width: auto;
+}
+
+.galleryDisplay:hover .desc{
+    opacity: 1;
+    transform: translateY(-100%);
+    transition: 0.25s ease;
+}
+
+.galleryDisplay img {
+    width: 500px;
+    height: auto;
+}
+
+.desc {
+    text-align: center;
+    opacity: 0;
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: gray;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px
 }
