@@ -1,20 +1,27 @@
 .containerIMG{
     display: flex;
     padding: 10px;
+    margin: 40px;
     padding-top: 20px;
 }
 
-.galleryDisplay {
+.gallerieDisplay {
     width: auto;
+    padding: 5px;
 }
 
-.galleryDisplay:hover .desc{
+.gallerieDisplay:hover.gallerieDisplay img{
+    transform: scale(1.1);
+    transition: 0.25s ease;
+}
+
+.gallerieDisplay:hover .desc{
     opacity: 1;
     transform: translateY(-100%);
     transition: 0.25s ease;
 }
 
-.galleryDisplay img {
+.gallerieDisplay img {
     width: 500px;
     height: auto;
 }
@@ -29,4 +36,15 @@
     border-top-left-radius:15px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px
+}
+
+.desc .voirCertifs{
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.desc .voirCertifs:hover{
+    background-color: white;
+    color: grey;
+    transition: 0.25s ease;
 }
