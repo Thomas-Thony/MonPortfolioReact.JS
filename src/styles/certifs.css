@@ -7,7 +7,7 @@
 
 .gallerieDisplay {
     width: auto;
-    padding: 5px;
+    padding: 20px;
 }
 
 .gallerieDisplay:hover.gallerieDisplay img{
@@ -22,7 +22,7 @@
 }
 
 .gallerieDisplay img {
-    width: 500px;
+    width: 450px;
     height: auto;
 }
 
@@ -40,7 +40,6 @@
 
 .desc .voirCertifs{
     border-radius: 12px;
-    padding: 10px;
 }
 
 .desc .voirCertifs:hover{

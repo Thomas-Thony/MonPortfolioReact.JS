@@ -1,4 +1,5 @@
 import "../styles/certifs.css";
+import { Link } from "react-router-dom";
 
 function AutresCertifs() {
     return (
@@ -10,7 +11,7 @@ function AutresCertifs() {
               </a>
               <div className="desc">
                 <p>Présentation des certifications de l&apos;ANSII.</p>
-                <a className="voirCertifs" href="#">Voir les certifications</a>
+                <Link to="/ansii" className="voirCertifs">Voir les certifications</Link>
               </div>
             </div>
 
@@ -20,7 +21,7 @@ function AutresCertifs() {
               </a>
               <div className="desc">
                 <p>Présentation des certifications de la CNIL.</p>
-                <a className="voirCertifs" href="#">Voir les certifications</a>
+                <Link to="/cnil" className="voirCertifs">Voir les certifications</Link>
               </div>
             </div>
 
@@ -30,7 +31,7 @@ function AutresCertifs() {
               </a>
               <div className="desc">
                 <p>Présentation des certifications de Cisco.</p>
-                <a className="voirCertifs" href="#">Voir les certifications</a>
+                <Link to="/ansii" className="voirCertifs">Voir les certifications</Link>
               </div>
             </div>
           </div>
