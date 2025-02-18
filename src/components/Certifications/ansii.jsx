@@ -11,9 +11,9 @@ function Ansii() {
         <hr/>
         <br/>
             <div className="fonctionImage">
-                <img className='certif_ansii' src="/public/certfs/Ansii/Certification_Ansii_Thomas-THONY.png" alt="CV de Thomas THONY" />
+                <img className='certif_ansii' src="/certfs/ANSII/Certification_Ansii_Thomas-THONY.png" alt="CV de Thomas THONY" />
                 <div className="millieu">
-                    <div className="text"><a href="/public/certfs/Ansii/Certification_Ansii_Thomas-THONY.png" download="Certification_ansii_thomas_thony.png">Télécharger</a>
+                    <div className="text"><a href="/certfs/ANSII/Certification_Ansii_Thomas-THONY.png" download="Certification_ansii_thomas_thony.png">Télécharger</a>
                     </div>
                 </div>
             </div>

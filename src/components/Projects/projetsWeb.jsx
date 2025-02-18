@@ -24,7 +24,7 @@ function ProjetsWeb() {
                         <img src="/public/SourcesProjets/SiteHealthy.png" width="600px" height="auto" alt="Site Healthy" className="projects__img" />
                     </a>
                     <div className="projects__data">
-                        <h3 className="projects__name">Site Healthy <img src="/public/SourcesProjets/HealthyFood2.png" alt="Logo Healthy" /></h3>
+                        <h3 className="projects__name">Site Healthy <img src="/public/SourcesProjets/HealthyFood2.png" alt="Logo Healthy"/></h3>
                         <p className="projects__description">
                             Site web de santé et bien-être alimentaire avec des recettes maison, en anglais !
                         </p>

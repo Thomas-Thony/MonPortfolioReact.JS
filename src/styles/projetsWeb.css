@@ -37,7 +37,7 @@ article{
 }
 
 .projects__name img{
-    width: 100px;
+    width: 80px;
     height: auto;
 }
 
@@ -54,6 +54,7 @@ article{
 .projects__skill:hover{
     transform: translateY(-0.25rem);
     cursor: pointer;
+    transform: scale(1.25);
 }
 
 .projects__skills{
@@ -93,7 +94,10 @@ article{
     background-color: rgb(100,100,100);
 }
 
-.projects__card:hover .projects__img{
+.projects__img:hover{
     transform: scale(1.2);
+}
 
+.section__title{
+    margin: 20px;
 }
