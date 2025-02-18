@@ -3,11 +3,11 @@
     padding: 10px;
     margin: 40px;
     padding-top: 20px;
+    justify-content: center;
 }
 
 .gallerieDisplay {
     width: auto;
-    padding: 20px;
 }
 
 .gallerieDisplay:hover.gallerieDisplay img{

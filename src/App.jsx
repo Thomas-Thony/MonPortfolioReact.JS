@@ -14,6 +14,7 @@ import Certifs from './components/Certifications/certifications';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Profil from './components/Cartes/profil';
 import AutresCertifs from './components/autresCertifs';
+import Cisco from './components/Certifications/cisco';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/carte" element={<Carte />} />
           <Route path="/carte2" element={<Carte2/>}/>  
           <Route path="/certifs" element={<Certifs />} />
+          <Route path="/cisco" element={<Cisco/>} />
           <Route path="/autresCertifs" element={<AutresCertifs/>}/>
           <Route path="/ansii" element={<Ansii />} />
           <Route path="/cnil" element={<CNIL />} />

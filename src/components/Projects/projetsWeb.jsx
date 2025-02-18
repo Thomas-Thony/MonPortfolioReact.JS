@@ -21,7 +21,7 @@ function ProjetsWeb() {
             <div className="projects__containers container grid">
                 <article className="projects__card">
                     <a href="https://github.com/Thomas-Thony/Site-Healthy" className="projects__image" target="_blank">
-                        <img src="/public/SourcesProjets/SiteHealthy.png" width="600px" height="auto" alt="Site Healthy" className="projects__img" />
+                        <img src="/SourcesProjets/SiteHealthy.png" width="600px" height="auto" alt="Site Healthy" className="projects__img" />
                     </a>
                     <div className="projects__data">
                         <h3 className="projects__name">Site Healthy <img src="/public/SourcesProjets/HealthyFood2.png" alt="Logo Healthy"/></h3>
@@ -29,9 +29,9 @@ function ProjetsWeb() {
                             Site web de santé et bien-être alimentaire avec des recettes maison, en anglais !
                         </p>
                         <div className="projects__skills">
-                            <img src="/public/assets/html.png" alt="Logo HTML 5" className="projects__skill" />
-                            <img src="/public/assets/css-3.png" alt="Logo CSS 3" className="projects__skill" />
-                            <img src="/public/assets/js.png" alt="Logo JavaScript" className="projects__skill"/>
+                            <img src="/assets/html.png" alt="Logo HTML 5" className="projects__skill" />
+                            <img src="/assets/css-3.png" alt="Logo CSS 3" className="projects__skill" />
+                            <img src="/assets/js.png" alt="Logo JavaScript" className="projects__skill"/>
                         </div>
                         <a href="https://github.com/Thomas-Thony/Site-Healthy" target="_blank" className="projects__button">
                             <FaGithub className="i"/>
