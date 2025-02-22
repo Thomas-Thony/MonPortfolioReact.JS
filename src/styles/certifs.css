@@ -8,6 +8,7 @@
 
 .gallerieDisplay {
     width: auto;
+    padding: 20px;
 }
 
 .gallerieDisplay:hover.gallerieDisplay img{
@@ -22,8 +23,8 @@
 }
 
 .gallerieDisplay img {
-    width: 450px;
-    height: auto;
+    width: 475px;
+    height: 350px;
 }
 
 .desc {
@@ -40,10 +41,14 @@
 
 .desc .voirCertifs{
     border-radius: 12px;
+    padding: 3px;
 }
 
 .desc .voirCertifs:hover{
     background-color: white;
     color: grey;
     transition: 0.25s ease;
+    .iconeLien{
+        fill: #808080 !important;  
+    }
 }
