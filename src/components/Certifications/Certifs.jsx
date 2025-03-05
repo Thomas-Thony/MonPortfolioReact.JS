@@ -1,8 +1,8 @@
-import "../styles/certifs.css";
+import "../../styles/certifs.css";
 import { Link } from "react-router-dom";
 import { GoLinkExternal } from "react-icons/go";
 
-function AutresCertifs() {
+function Certifs() {
     return (
       <>
         <div className="containerIMG">
@@ -52,4 +52,4 @@ function AutresCertifs() {
     );
 }
 
-export default AutresCertifs;
+export default Certifs;

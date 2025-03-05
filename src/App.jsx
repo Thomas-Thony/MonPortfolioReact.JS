@@ -10,10 +10,9 @@ import MesProjets from './components/mesProjets';
 import ProjetsWeb from './components/Projects/projetsWeb';
 import ProjetsJS from './components/Projects/projetsJS';
 import ProjetsDivers from './components/Projects/projetsDivers';
-import Certifs from './components/Certifications/certifications';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Profil from './components/Cartes/profil';
-import AutresCertifs from './components/autresCertifs';
+import Certifs from './components/Certifications/Certifs';
 import Cisco from './components/Certifications/cisco';
 
 function App() {
@@ -27,9 +26,8 @@ function App() {
           <Route path="/monCV" element={<CV />} />
           <Route path="/carte" element={<Carte />} />
           <Route path="/carte2" element={<Carte2/>}/>  
-          <Route path="/certifs" element={<Certifs />} />
           <Route path="/cisco" element={<Cisco/>} />
-          <Route path="/autresCertifs" element={<AutresCertifs/>}/>
+            <Route path="/Certifs" element={<Certifs />} />
           <Route path="/ansii" element={<Ansii />} />
           <Route path="/cnil" element={<CNIL />} />
           <Route path="/mesProjets" element={<MesProjets />} />
