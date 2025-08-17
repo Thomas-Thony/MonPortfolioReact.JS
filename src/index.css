@@ -1,3 +1,27 @@
-*{
-    color: azure;
+@import "tailwindcss";
+
+/*Fond*/
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(10deg, #14b9eb,  #043779,#7873f5, #2f009e);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/*Coprs de la page*/
+.container{
+    justify-items: center;
 }

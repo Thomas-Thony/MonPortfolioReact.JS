@@ -1,0 +1,59 @@
+.cartePersonne{
+    border: 1px solid #31363f;
+    border-radius: 10px;
+    max-width: 600px;
+    background-color: #31363f;
+    color: white;
+    padding: 10px 20px;
+}
+
+.cartePersonne h1.identite{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.cartePersonne h2.role{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.cartePersonne h3.age{
+    font-size: 23px;
+}
+
+.cartePersonne .reseauxSociaux{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.cartePersonne .reseauxSociaux a:hover{
+    transform: scale(1.25);
+    transition: transform 0.3s ease;
+}
+
+.Bouton{
+    background-color: #7873f5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.Bouton:hover{
+    background-color: blue;
+}
+
+.document{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.document:hover{
+    background-color: #555;
+}

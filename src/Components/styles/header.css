@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+div.navbar{
+    justify-items: center;
+}
+
+ul.navbar-list, li.navbar-item{
+    display: flex;
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+li.navbar-item{
+    background-color: #31363f;
+    padding: 10px;
+}
+
+ul.navbar-list, li.navbar-item:hover{
+    color: grey;
+}

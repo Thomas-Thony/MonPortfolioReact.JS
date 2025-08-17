@@ -1,0 +1,81 @@
+.skill-box{
+    padding: 1rem;
+    color: #ddd;
+    cursor: pointer;
+    background-color: #31363f;
+    border-radius: 10px;
+
+}
+
+.skill-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.skill-title::after{
+    content: '';
+    bottom: 0;
+    right: 50%;
+    width: 0;
+    height: 4px;
+    border-radius: 2px 0 0 2px;
+    background-color: white;
+    transition: 0.25s;
+}
+
+.skill-title::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 4px;
+    border-radius: 0 2px 2px 0;
+    background-color: white;
+    transition: 0.25s;
+}
+
+.imgSkill{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.25s;
+}
+
+.imgSkill::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 90px;
+    background-color: rgba(100, 100, 100, 0.5);
+    border-radius: 45px 0 0 45px;
+}
+
+.skill-title h3{
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.skill-icon{
+    width: 50px;    
+}
+
+.skill-box:hover > .skill-title::after, .skill-box:hover > .skill-title::after{
+    width: 35px;
+}
+
+.skill-box:hover .imgSkill{
+    transform: translateY(-10px);
+}

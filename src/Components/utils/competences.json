@@ -1,0 +1,53 @@
+{
+    "langages": {
+        "Developpement Web" : [
+            {
+                "nom": "HTML",
+                "image": "./assets/html.png",
+                "description": "Le HTML (HyperText Markup Language) est un langage de balisage  hypertexte. Ce langage est essentiel pour le développement web moderne, car il   permet de créer des applications interactives et réactives, tout en offrant une   meilleure compatibilité avec les navigateurs et les appareils mobiles."
+            },
+            {
+                "nom": "CSS",
+                "image": "./assets/css-3.png",
+                "description" : "Le CSS, ou Cascading Style Sheets est un langage de style  utilisé pour décrire la présentation d'un document écrit en HTML ou en XML. Il   permet aux développeurs de séparer le contenu de la mise en forme. Il est     possible d'appliquer des styles avancés tels que les animations, les    transitions et les transformations."
+            },
+            {
+                "nom": "JS",
+                "image": "./assets/js.png",
+                "description" : "Le JavaScript, souvent abrégé en JS, est un langage de programmation dynamique qui permet d'ajouter de l'interactivité et des fonctionnalités avancées aux pages web. En outre, avec l'émergence de bibliothèques et de frameworks tels que React, Angular et Vue.js, JavaScript a évolué pour devenir un outil incontournable dans le développement d'applications web complexes et réactives."
+            },
+            {
+                "nom": "PHP",
+                "image": "./assets/php.png",
+                "description": "Le PHP, ou Hypertext Preprocessor, est un langage de script côté serveur largement utilisé pour le développement web. Il permet de créer des pages web dynamiques en intégrant des fonctionnalités interactives et en facilitant la gestion des bases de données. On dit que PHP permet de créer des pages dites dynamiques, contrairement au simple HTML qui crée des pages statiques."
+            },
+            {
+                "nom": "MySQL",
+                "image": "./assets/database.png",
+                "description" : "MySQL est un système de gestion de bases de données relationnelles open source qui permet de stocker, organiser et récupérer des données de manière efficace. Utilisé en collaboration avec des langages de programmation web comme le PHP, MySQL est un langage très efficace pour le développement d'applications web nécessitant une gestion des données.."
+            },
+            {
+                "nom": "React.js",
+                "image": "./assets/reactjs.png",
+                "description" : "React.js est une bibliothèque JavaScript développée par Facebook, conçue pour faciliter la création d'interfaces utilisateur interactives et dynamiques. En adoptant une approche basée sur des composants, React.js permet aux développeurs de construire des applications web modulaires et réutilisables, ce qui améliore la maintenabilité et la performance des projets."
+            }
+        ],
+        "Developpement Logiciel" :[
+            {
+                "nom": "Arduino/C++",
+                "image": "./assets/cpp.png",
+                "description": "Arduino est une plateforme open-source de développement électronique qui permet de concevoir et de programmer facilement des systèmes embarqués. Elle se compose de cartes électroniques équipées d’un microcontrôleur et d’un environnement de programmation simplifié. Grâce à ses nombreuses bibliothèques et à sa compatibilité avec divers capteurs et modules, Arduino est largement utilisé pour le prototypage rapide, l’apprentissage de l’électronique et la création d’objets interactifs.."
+            },
+            {
+                "nom": "Python",
+                "image": "./assets/python.png",
+                "description" : "Python est un langage de programmation interprété, polyvalent et facile à apprendre, apprécié pour sa syntaxe claire et concise. Il est utilisé dans de nombreux domaines tels que le développement web, l’intelligence artificielle, l’analyse de données et l’automatisation. Grâce à son vaste écosystème de bibliothèques et à sa forte communauté, Python permet de développer des applications allant des scripts simples aux logiciels complexes, tout en favorisant une approche rapide et efficace de la programmation."
+            },
+            {
+                "nom": "Unity 2D/C#",
+                "image": "./assets/c-sharp.png",
+                "description" : "C# est un langage de programmation orienté objet développé par Microsoft, principalement utilisé pour la création d’applications Windows, de jeux vidéo avec Unity et de solutions web avec .NET. Il se distingue par sa robustesse, sa gestion efficace de la mémoire et ses fonctionnalités modernes adaptées au développement d’applications performantes et sécurisées. Grâce à son intégration dans l’écosystème Microsoft, C# est un choix privilégié pour les entreprises et les développeurs souhaitant concevoir des logiciels professionnels et évolutifs."
+            }
+        ]
+    }
+}

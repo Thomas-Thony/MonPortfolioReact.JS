@@ -1,0 +1,64 @@
+{
+  "projets": [
+    {
+      "name": "Find Me App",
+      "langage1": "PHP",
+      "langage2": "HTML",
+      "langage3": "CSS",
+      "langage4": "JS",
+      "langage5": "SQL",
+      "description": "Application web qui permet de mettre en relation des étudiants et des entreprises pour trouver des stages ou des alternances.",
+      "lien_projet": "https://findmeapp.fr"
+    },
+    {
+      "name": "SimpleGLPI",
+      "langage1": "PHP",
+      "langage2": "HTML",
+      "langage3": "CSS",
+      "langage4": "JS",
+      "langage5": "SQL",
+      "description": "Gestionnaire de parc informatique libre permettant de gérer les appareils comme les réseaux et gérer les utilisateurs de ces derniers !",
+      "lien_projet": "https://github.com/Thomas-Thony/SimpleGLPI"
+    },
+    {
+      "name": "Site Healthy",
+      "langage1": "HTML",
+      "langage2": "CSS",
+      "langage3": "JS",
+      "langage4": "",
+      "langage5": "",
+      "description": "Site web de santé et bien-être alimentaire avec des recettes maison, en anglais !",
+      "lien_projet": "https://github.com/Thomas-Thony/Site-Healthy"
+    },
+    {
+      "name": "Sculpture mobile",
+      "langage1": "Arduino",
+      "langage2": "CPP",
+      "langage3": "",
+      "langage4": "",
+      "langage5": "",
+      "description": "Projet de baccalauréat technologique STID (SIN). Une sculpture mobile qui se déplace avec un moteur, possède des capteurs de températures et d'humidité, ainsi qu'un module RTC pour l'heure et le jour, et affiche les données sur un écran LCD.",
+      "lien_projet": "https://github.com/Thomas-Thony/Sculpture-mobile"
+    },
+    {
+      "name": "Discord Bot",
+      "langage1": "JS",
+      "langage2": "DiscordJS",
+      "langage3": "",
+      "langage4": "",
+      "langage5": "",
+      "description": "Robot créé le réseau social Discord en utilisant la librairie javascript Discord.js (La version 14), permettant de gérer des serveurs, d'envoyer des messages, réagir à des commandes, etc.",
+      "lien_projet": "https://github.com/Thomas-Thony/Discord-Bot"
+    },
+        {
+      "name": "Jeu Python",
+      "langage1": "Python",
+      "langage2": "",
+      "langage3": "",
+      "langage4": "",
+      "langage5": "",
+      "description": "En première STI2D, notre professeur d'innovation technologique nous avait demandé de faire un jeu python, simple avec seulement des conditions (if-else, etc...). Voici donc le jeu qui est assez court mais efficace pour un projet de 1ère STI2D (j'ai eu 18/20).",
+      "lien_projet": "https://github.com/Thomas-Thony/jeu-python"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+.contact-container{
+    background-color: #31363f;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.liens-contact{
+    display: flex;
+    justify-content: center;
+}
+
+.liens-contact a{
+    margin: 10px;
+    font-size: 35px;
+}
+
+.liens-contact a h1{
+    opacity: 0;
+    font-size: 20px;
+}
+
+.liens-contact a:hover h1{
+    opacity: 1;
+} 
+
+.liens-contact a:hover{
+    transform: scale(1.25);
+    transition: transform 0.3s ease;
+}
+
+.liens-contact a.lien-icone{
+    justify-content: center;
+}
