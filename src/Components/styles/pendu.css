@@ -1,0 +1,103 @@
+.hangman-drawing {
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #333;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.hangman-line {
+  font-weight: bold;
+  text-align: center;
+  white-space: pre;
+  transition: all 0.3s ease;
+  margin: 1px 0;
+}
+
+.hangman-drawing .hangman-line {
+  animation: drawLine 0.5s ease-out;
+}
+
+@keyframes drawLine {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.hangman-drawing .hangman-line:contains('💀') {
+  animation: gameOver 1s ease-out;
+  color: #dc3545;
+}
+
+@keyframes gameOver {
+  0% {
+    transform: scale(1);
+    filter: hue-rotate(0deg);
+  }
+  25% {
+    transform: scale(1.1);
+    filter: hue-rotate(90deg);
+  }
+  50% {
+    transform: scale(0.95);
+    filter: hue-rotate(180deg);
+  }
+  75% {
+    transform: scale(1.05);
+    filter: hue-rotate(270deg);
+  }
+  100% {
+    transform: scale(1);
+    filter: hue-rotate(360deg);
+  }
+}
+
+.hangman-drawing.game-won {
+  background: linear-gradient(135deg, #d4edda, #c3e6cb);
+  border-color: #28a745;
+}
+
+.hangman-drawing.game-lost {
+  background: linear-gradient(135deg, #f8d7da, #f5c6cb);
+  border-color: #dc3545;
+}
+
+.hangman-drawing.game-lost .hangman-line {
+  color: #721c24;
+}
+
+@media (max-width: 768px) {
+  .hangman-drawing {
+    font-size: 16px;
+    padding: 15px;
+    min-height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hangman-drawing {
+    font-size: 14px;
+    padding: 10px;
+    min-height: 160px;
+    margin: 15px 0;
+  }
+  
+  .hangman-line {
+    margin: 0;
+  }
+}

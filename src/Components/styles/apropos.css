@@ -1,0 +1,24 @@
+.competences-container {
+    color: white;
+}
+
+.categorie-section {
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.categorie-titre {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: white;
+    background-color: #31363f;
+    border-radius: 10px;
+}
+
+.langages-liste {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1.5rem;
+    color: white;
+    font-size: 18px;
+}

@@ -1,0 +1,229 @@
+/* Styles principaux pour le jeu du pendu */
+.jeu-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #31363f;
+  border-radius: 10px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Header du jeu */
+.jeu-header {
+  text-align: center;
+  margin-bottom: 30px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+  backdrop-filter: blur(10px);
+}
+
+.jeu-header h1 {
+  color: #333;
+  margin: 0 0 15px 0;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.game-status {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 25px;
+  display: inline-block;
+  background: linear-gradient(45deg, #28a745, #20c997);
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.game-status.won {
+  background: linear-gradient(45deg, #28a745, #20c997);
+  animation: celebration 1s ease-in-out;
+}
+
+.game-status.lost {
+  background: linear-gradient(45deg, #dc3545, #c82333);
+}
+
+@keyframes celebration {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+/* Conteneur des statistiques */
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.stat {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  backdrop-filter: blur(10px);
+  min-width: 120px;
+  transition: transform 0.2s ease;
+}
+
+.stat:hover {
+  transform: translateY(-2px);
+}
+
+.stat-label {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.stat-value {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Zone de jeu principale */
+.game-area {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+
+/* Conteneur des contrôles */
+.controls {
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(10px);
+}
+
+/* Bouton nouveau jeu */
+.nouveau-jeu-btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #31363f;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nouveau-jeu-btn:hover {
+  transform: translateY(-2px);
+  color: grey;
+}
+
+.nouveau-jeu-btn:active {
+  transform: translateY(0);
+}
+
+/* Instructions */
+.instructions {
+  text-align: center;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.instructions p {
+  margin: 8px 0;
+  color: white;
+  font-size: 25px;
+}
+
+.instructions p:first-child {
+  font-weight: bold;
+  color: white
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .jeu-container {
+    padding: 15px;
+  }
+  
+  .jeu-header h1 {
+    font-size: 2em;
+  }
+  
+  .stats-container {
+    gap: 20px;
+  }
+  
+  .stat {
+    min-width: 100px;
+    padding: 12px 20px;
+  }
+  
+  .stat-value {
+    font-size: 20px;
+  }
+  
+  .game-area,
+  .controls {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .jeu-container {
+    padding: 10px;
+  }
+  
+  .jeu-header {
+    padding: 15px;
+  }
+  
+  .jeu-header h1 {
+    font-size: 1.8em;
+  }
+  
+  .stats-container {
+    gap: 15px;
+  }
+  
+  .stat {
+    min-width: 80px;
+    padding: 10px 15px;
+  }
+  
+  .stat-label {
+    font-size: 12px;
+  }
+  
+  .stat-value {
+    font-size: 18px;
+  }
+  
+  .game-area,
+  .controls {
+    padding: 10px;
+  }
+  
+  .nouveau-jeu-btn {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+  
+  .instructions p {
+    font-size: 12px;
+  }
+}

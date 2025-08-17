@@ -1,46 +1,37 @@
 import './App.css';
-import Accueil from './components/accueil';
-import Ansii from './components/Certifications/ansii';
-import Carte from './components/Cartes/carte';
-import Carte2 from './components/Cartes/carte2';
-import CNIL from './components/Certifications/cnil';
-import CV from './components/monCv';
-import Navbar from './components/menu';
-import MesProjets from './components/mesProjets';
-import ProjetsWeb from './components/Projects/projetsWeb';
-import ProjetsJS from './components/Projects/projetsJS';
-import ProjetsDivers from './components/Projects/projetsDivers';
-import Certifs from './components/Certifications/certifications';
+import Header from "./components/utils/header.jsx";
+import Footer from './components/utils/footer.jsx';
+import Carte from './components/carte.jsx';
+import Contact from './components/contact.jsx';
+import Projets from './components/projets.jsx';
+import Apropos from './components/apropos.jsx';
+import Jeu from './components/jeu/jeu.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Profil from './components/Cartes/profil';
-import AutresCertifs from './components/autresCertifs';
 
-function App() {
+const App = () => {
+
   return (
-    <>
-<BrowserRouter>
-    <div className="gradient-background">
-        <Navbar/>
-        <Routes>
-          <Route path="/" element={<Accueil />} />
-          <Route path="/monCV" element={<CV />} />
-          <Route path="/carte" element={<Carte />} />
-          <Route path="/carte2" element={<Carte2/>}/>  
-          <Route path="/certifs" element={<Certifs />} />
-          <Route path="/autresCertifs" element={<AutresCertifs/>}/>
-          <Route path="/ansii" element={<Ansii />} />
-          <Route path="/cnil" element={<CNIL />} />
-          <Route path="/mesProjets" element={<MesProjets />} />
-          <Route path="/monProfil" element={<Profil />} />  
-          <Route path="/projetsWeb" element={<ProjetsWeb />} /> 
-          <Route path="/projetsJS" element={<ProjetsJS/>} />  
-          <Route path="/projetsDivers" element={<ProjetsDivers/>} />   
-          <Route path="*" element={<h1>404 - Page non trouvée</h1>} />
-        </Routes>
-      </div >
-  </BrowserRouter>
-    </>
-  )
+      <>
+        <BrowserRouter>
+          <div id='gradient'>  
+          <Header />
+            <div className="container">
+              <Routes>
+              {/*Liens du header*/}
+                <Route path="/" element={<Carte prenom="Thomas" nom="Thony" age="18" role="Développeur Full-Stack" lienA={"https://linkedin.com/in/thomas-thony"} lienB={"https://github.com/Thomas-Thony"} />} />
+                <Route path="/apropos" element={<Apropos/>} />
+                <Route path="/projets" element={<Projets />} />
+                <Route path="/contact" element={<Contact/>}/>
+                {/*Autres liens de composants*/}
+                <Route path="/jeu" element={<Jeu />} />
+                <Route path="*" element={<h1>404 - Page non trouvée</h1>} />
+              </Routes>
+            </div>
+            <Footer/>
+          </div>
+          </BrowserRouter>
+      </>
+    );
 }
 
 export default App;
