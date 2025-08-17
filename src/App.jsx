@@ -1,5 +1,5 @@
 import './App.css';
-import Header from "./components/utils/header.jsx";
+import Header from "./Components/utils/Header.jsx";
 import Footer from './components/utils/footer.jsx';
 import Carte from './components/carte.jsx';
 import Contact from './components/contact.jsx';
