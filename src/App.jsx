@@ -1,11 +1,11 @@
 import './App.css';
-import Header from "./components/utils/header.jsx";
-import Footer from './components/utils/footer.jsx';
-import Carte from './components/carte.jsx';
-import Contact from './components/contact.jsx';
-import Projets from './components/projets.jsx';
-import Apropos from './components/apropos.jsx';
-import Jeu from './components/jeu/jeu.jsx';
+import Header from "./Components/utils/header.jsx";
+import Footer from './Components/utils/footer.jsx';
+import Carte from './Components/carte.jsx';
+import Contact from './Components/contact.jsx';
+import Projets from './Components/projets.jsx';
+import Apropos from './Components/apropos.jsx';
+import Jeu from './Components/jeu/jeu.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const App = () => {
