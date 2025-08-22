@@ -4,6 +4,7 @@
     max-width: 600px;
     background-color: #31363f;
     color: white;
+      margin: 0 auto; /* centre horizontalement */
     padding: 10px 20px;
 }
 

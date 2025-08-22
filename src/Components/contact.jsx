@@ -5,6 +5,7 @@ import { FaLinkedin, FaEnvelopeOpenText } from 'react-icons/fa';
 function Contact(){
     return (
         <>
+            <center>
             <div className="contact-container">
                 Vous pouvez me joindre sur :
                 <div className="liens-contact">
@@ -20,6 +21,7 @@ function Contact(){
                     </a>
                 </div>
             </div>
+            </center>
         </>
     );
 }

@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
 div.navbar{
-    justify-items: center;
+    display: flex;           /* active flexbox */
+    justify-content: center; /* centre horizontalement la liste */
+    padding: 1rem;
 }
 
 ul.navbar-list, li.navbar-item{

@@ -1,12 +1,36 @@
-# React + Vite
+# Mon portfolio en React.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction 
 
-Currently, two official plugins are available:
+### Qu'est-ce qu'un portfolio ?
+Un portfolio est un site web (de préférence statique) qui permet de mettre en avant des projets ainsi que les comptétences de développement.
+C'est le CV du développeur Web ! 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### A propos de ce portfolio
+Ce portfolio est composé de 4 onglets principaux [plus si vous êtes curieux ; )] :
 
-## Expanding the ESLint configuration
+- Présentation résumé de moi-même
+- Présentation des projets réalisés
+- Présentation des compétences aqcuises
+- Page de contact
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<b>Attention !</b> Il se peut que certains navigateurs supportent mal le portfolio: style décalé, interactions qui ne fonctionnent pas, etc...
+Le portfolio fonctionne de manière stable sur : 
+- Firefox
+- Opéra (Classique et GX)
+- Brave 
+
+## Configuration du portfolio
+### Dépendences utilisées 
+Pour le bon foncitonnement du portfolio, plusieurs librairies externes ont été utilisées : 
+
+- React-Router-Dom (V6.30.1)
+- React-tostify (V11.0.5)
+- React-icons (V5.5.0)
+
+### Déploiment en ligne
+Le portfolio est disponible en ligne à l'adresse suivante : <b>https://thomas-thony.netlify.app/</b>
+
+Hébergement : 
+
+Netlify (Gratuit)
