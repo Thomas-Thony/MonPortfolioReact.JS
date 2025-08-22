@@ -1,5 +1,5 @@
 import { Component } from "react";
-import Clavier from "./Clavier";
+import Clavier from "./clavier";
 import CurrentWord from "./currentWord";
 import Pendu from "./pendu";
 import Message from "../utils/message";
