@@ -28,12 +28,15 @@ const langageImages = {
 };
 
 
-const Projet = ({ nomProjet, langage1, langage2, langage3, langage4, langage5 ,description, lienProjet }) => {
+const Projet = ({ nomProjet, langage1, langage2, langage3, langage4, langage5 , image ,description, lienProjet }) => {
   const langages = [langage1, langage2, langage3, langage4, langage5].filter(Boolean); 
 
   return (
     <div className="projet-container">
       <h1>{nomProjet}</h1>
+      <a href={image} target="_blank">
+        <img className="image-projet" src={image} alt={nomProjet} />
+      </a>
       <div className="langages">
         {langages.map((lang, index) => (
           <div key={index} className="langage-item">

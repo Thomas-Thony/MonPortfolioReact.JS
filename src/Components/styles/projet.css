@@ -10,6 +10,7 @@
 
 .projet-container h1{
     font-size: 30px;
+    margin: 10px;
 }
 
 .projet-container h3{
@@ -21,14 +22,26 @@
     margin-bottom: 10px;
 }
 
+.projet-container .image-projet{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.projet-container .image-projet:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
 .projet-container .langages {
     display: flex;
     justify-content: center;
 }
 
 .projet-container .langages img.icone-langage{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin: 10px;
 }
 

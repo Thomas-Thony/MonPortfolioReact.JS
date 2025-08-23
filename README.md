@@ -19,6 +19,7 @@ Le portfolio fonctionne de manière stable sur :
 - Firefox
 - Opéra (Classique et GX)
 - Brave 
+- Zen
 
 ## Configuration du portfolio
 ### Dépendences utilisées 
@@ -29,7 +30,7 @@ Pour le bon foncitonnement du portfolio, plusieurs librairies externes ont été
 - React-icons (V5.5.0)
 
 ### Déploiment en ligne
-Le portfolio est disponible en ligne à l'adresse suivante : <b>https://thomas-thony.netlify.app/</b>
+Le portfolio est disponible en ligne à l'adresse suivante : <b>https://thomas-thony.netlify.app</b>
 
 Hébergement : 
 

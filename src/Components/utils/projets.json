@@ -7,6 +7,7 @@
       "langage3": "CSS",
       "langage4": "JS",
       "langage5": "SQL",
+      "image": "./assets/projets/findmeapp.png",
       "description": "Application web qui permet de mettre en relation des étudiants et des entreprises pour trouver des stages ou des alternances.",
       "lien_projet": "https://findmeapp.fr"
     },
@@ -17,6 +18,7 @@
       "langage3": "CSS",
       "langage4": "JS",
       "langage5": "SQL",
+      "image": "./assets/projets/SimpleGLPI.png",
       "description": "Gestionnaire de parc informatique libre permettant de gérer les appareils comme les réseaux et gérer les utilisateurs de ces derniers !",
       "lien_projet": "https://github.com/Thomas-Thony/SimpleGLPI"
     },
@@ -27,6 +29,7 @@
       "langage3": "JS",
       "langage4": "",
       "langage5": "",
+      "image": "./assets/projets/siteHealthy.png",
       "description": "Site web de santé et bien-être alimentaire avec des recettes maison, en anglais !",
       "lien_projet": "https://github.com/Thomas-Thony/Site-Healthy"
     },
@@ -37,6 +40,7 @@
       "langage3": "",
       "langage4": "",
       "langage5": "",
+      "image": "./assets/projets/sculptureMobile.png",
       "description": "Projet de baccalauréat technologique STID (SIN). Une sculpture mobile qui se déplace avec un moteur, possède des capteurs de températures et d'humidité, ainsi qu'un module RTC pour l'heure et le jour, et affiche les données sur un écran LCD.",
       "lien_projet": "https://github.com/Thomas-Thony/Sculpture-mobile"
     },
@@ -47,6 +51,7 @@
       "langage3": "",
       "langage4": "",
       "langage5": "",
+      "image": "./assets/projets/discordBot.png",
       "description": "Robot créé le réseau social Discord en utilisant la librairie javascript Discord.js (La version 14), permettant de gérer des serveurs, d'envoyer des messages, réagir à des commandes, etc.",
       "lien_projet": "https://github.com/Thomas-Thony/Discord-Bot"
     },
@@ -57,6 +62,7 @@
       "langage3": "",
       "langage4": "",
       "langage5": "",
+      "image": "./assets/projets/jeuPython.png",
       "description": "En première STI2D, notre professeur d'innovation technologique nous avait demandé de faire un jeu python, simple avec seulement des conditions (if-else, etc...). Voici donc le jeu qui est assez court mais efficace pour un projet de 1ère STI2D (j'ai eu 18/20).",
       "lien_projet": "https://github.com/Thomas-Thony/jeu-python"
     }

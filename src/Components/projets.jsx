@@ -15,6 +15,7 @@ function Projets() {
           langage3={projet.langage3}
           langage4={projet.langage4}
           langage5={projet.langage5}
+          image={projet.image}
           description={projet.description}
           lienProjet={projet.lien_projet}
         />
