@@ -41,7 +41,7 @@
       "langage4": "",
       "langage5": "",
       "image": "./assets/projets/sculptureMobile.png",
-      "description": "Projet de baccalauréat technologique STID (SIN). Une sculpture mobile qui se déplace avec un moteur, possède des capteurs de températures et d'humidité, ainsi qu'un module RTC pour l'heure et le jour, et affiche les données sur un écran LCD.",
+      "description": "Projet de baccalauréat technologique STI2D (SIN). Une sculpture mobile qui se déplace avec un moteur, possède des capteurs de températures et d'humidité, ainsi qu'un module RTC pour l'heure et le jour, et affiche les données sur un écran LCD.",
       "lien_projet": "https://github.com/Thomas-Thony/Sculpture-mobile"
     },
     {
