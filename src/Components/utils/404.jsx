@@ -7,7 +7,7 @@ function NonTrouve() {
         <>
             <div className="non-trouve">
               <h1>Erreur 404</h1>
-              <p>Oups ! La page que vous recherchez n'existe pas.</p>
+              <p>Oups ! La page que vous recherchez n'existe pas ou est en cours de construction.</p>
             </div>
             <Link to="/" className="retour">Retour à l'accueil</Link>
         </>

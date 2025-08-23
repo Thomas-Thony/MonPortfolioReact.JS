@@ -7,15 +7,15 @@
             "description": "Certification délivrée par l'Agence Nationale de la Sécurité des Systèmes d'Information (ANSSI) attestant des connaissances fondamentales en matière de sécurité numérique et d'hygiène numérique."
         },
         {
-            "titre": "Fondamenttaux de la sécurité numérique",
-            "organisme": "SecNum académie (ANSSI)",
-            "image": "./assets/certifications/Certification_Ansii_Thomas-THONY.png",
-            "description": "Certification délivrée par l'Agence Nationale de la Sécurité des Systèmes d'Information (ANSSI) attestant des connaissances fondamentales en matière de sécurité numérique et d'hygiène numérique."
+            "titre": "L'essentiel de JavaScript",
+            "organisme": "Cisco Networking Academy",
+            "image": "./assets/certifications/javascriptEssentialsCiscoNetCad.png",
+            "description": "Certification délivrée par l'entreprise Cisco via la plateforme Cisco Networking Academy, attestant des compétences en JavaScript, y compris les bases du langage, la manipulation du DOM, et les concepts de programmation asynchrone."
         },
         {
             "titre": "Fondamenttaux de la sécurité numérique",
             "organisme": "SecNum académie (ANSSI)",
-            "image": "./assets/certifications/Certification_Ansii_Thomas-THONY.png",
+            "image": "./assets/certifications/DigitalAwarenessUpdate.png",
             "description": "Certification délivrée par l'Agence Nationale de la Sécurité des Systèmes d'Information (ANSSI) attestant des connaissances fondamentales en matière de sécurité numérique et d'hygiène numérique."
         },
         {
