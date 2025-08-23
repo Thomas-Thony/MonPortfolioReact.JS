@@ -1,4 +1,4 @@
-.projets-grid {
+.certifications-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 colonnes égales */
   gap: 1rem;

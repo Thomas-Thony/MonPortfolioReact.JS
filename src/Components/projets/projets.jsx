@@ -1,7 +1,7 @@
 import "react";
-import "./styles/projets.css"; //Style du composant
+import "../styles/projets.css"; //Style du composant
 import Projet from './projet.jsx'; //Import du template du composant d'un projet
-import ProjetsListe from "./utils/projets.json"; //Liste de l'ensemble des projets
+import ProjetsListe from "./projets.json"; //Liste de l'ensemble des projets
 
 function Projets() {
   return (

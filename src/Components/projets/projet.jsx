@@ -1,5 +1,5 @@
 import "react"
-import "./styles/projet.css"; //Style du composant 
+import "../styles/projet.css"; //Style du composant 
 
 //Images des langages
 import jsLogo from "/assets/js.png";
