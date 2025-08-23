@@ -1,10 +1,40 @@
 {
     "certifications": [
         {
-            "titre": "Fondamenttaux de la sécurité numérique sur internet et hygiène numérique",
+            "titre": "Fondamenttaux de la sécurité numérique",
             "organisme": "SecNum académie (ANSSI)",
             "image": "./assets/certifications/Certification_Ansii_Thomas-THONY.png",
-            "description": "Formation de 7 mois (environ 500 heures) pour apprendre les bases du développement web, ainsi que les technologies HTML, CSS, JavaScript, PHP et MySQL. Réalisation de plusieurs projets concrets."
+            "description": "Certification délivrée par l'Agence Nationale de la Sécurité des Systèmes d'Information (ANSSI) attestant des connaissances fondamentales en matière de sécurité numérique et d'hygiène numérique."
+        },
+        {
+            "titre": "Fondamenttaux de la sécurité numérique",
+            "organisme": "SecNum académie (ANSSI)",
+            "image": "./assets/certifications/Certification_Ansii_Thomas-THONY.png",
+            "description": "Certification délivrée par l'Agence Nationale de la Sécurité des Systèmes d'Information (ANSSI) attestant des connaissances fondamentales en matière de sécurité numérique et d'hygiène numérique."
+        },
+        {
+            "titre": "Fondamenttaux de la sécurité numérique",
+            "organisme": "SecNum académie (ANSSI)",
+            "image": "./assets/certifications/Certification_Ansii_Thomas-THONY.png",
+            "description": "Certification délivrée par l'Agence Nationale de la Sécurité des Systèmes d'Information (ANSSI) attestant des connaissances fondamentales en matière de sécurité numérique et d'hygiène numérique."
+        },
+        {
+            "titre": "Fondamenttaux de la sécurité numérique",
+            "organisme": "SecNum académie (ANSSI)",
+            "image": "./assets/certifications/Certification_Ansii_Thomas-THONY.png",
+            "description": "Certification délivrée par l'Agence Nationale de la Sécurité des Systèmes d'Information (ANSSI) attestant des connaissances fondamentales en matière de sécurité numérique et d'hygiène numérique."
+        },
+        {
+            "titre": "Fondamenttaux de la sécurité numérique",
+            "organisme": "SecNum académie (ANSSI)",
+            "image": "./assets/certifications/Certification_Ansii_Thomas-THONY.png",
+            "description": "Certification délivrée par l'Agence Nationale de la Sécurité des Systèmes d'Information (ANSSI) attestant des connaissances fondamentales en matière de sécurité numérique et d'hygiène numérique."
+        },
+        {
+            "titre": "Fondamenttaux de la sécurité numérique",
+            "organisme": "SecNum académie (ANSSI)",
+            "image": "./assets/certifications/Certification_Ansii_Thomas-THONY.png",
+            "description": "Certification délivrée par l'Agence Nationale de la Sécurité des Systèmes d'Information (ANSSI) attestant des connaissances fondamentales en matière de sécurité numérique et d'hygiène numérique."
         }
     ]
 }
