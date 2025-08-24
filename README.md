@@ -7,10 +7,11 @@ Un portfolio est un site web (de préférence statique) qui permet de mettre en 
 C'est le CV du développeur Web ! 
 
 ### A propos de ce portfolio
-Ce portfolio est composé de 4 onglets principaux [plus si vous êtes curieux ; )] :
+Ce portfolio est composé de 5 onglets principaux [plus si vous êtes curieux ; )] :
 
 - Présentation résumé de moi-même
 - Présentation des projets réalisés
+- Présentation des certifications obtenues
 - Présentation des compétences aqcuises
 - Page de contact
 

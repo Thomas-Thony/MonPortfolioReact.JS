@@ -23,6 +23,7 @@
 }
 
 .certification-container .image-certification {
+    margin: 10px 0;
     width: 400px;
     height: 250px;
     border-radius: 10px;

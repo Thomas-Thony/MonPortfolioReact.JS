@@ -13,28 +13,16 @@
             "description": "Certification délivrée par l'entreprise Cisco via la plateforme Cisco Networking Academy, attestant des compétences en JavaScript, y compris les bases du langage, la manipulation du DOM, et les concepts de programmation asynchrone."
         },
         {
-            "titre": "Fondamenttaux de la sécurité numérique",
-            "organisme": "SecNum académie (ANSSI)",
+            "titre": "Digital Awareness",
+            "organisme": "Cisco Networking Academy",
             "image": "./assets/certifications/DigitalAwarenessUpdate.png",
-            "description": "Certification délivrée par l'Agence Nationale de la Sécurité des Systèmes d'Information (ANSSI) attestant des connaissances fondamentales en matière de sécurité numérique et d'hygiène numérique."
+            "description": "Certification délivrée par l'entreprise Cisco via la plateforme Cisco Networking Academy, attestant des compétences en sensibilisation au numérique, y compris la sécurité en ligne, la confidentialité des données, et les bonnes pratiques numériques."
         },
         {
-            "titre": "Fondamenttaux de la sécurité numérique",
-            "organisme": "SecNum académie (ANSSI)",
-            "image": "./assets/certifications/Certification_Ansii_Thomas-THONY.png",
-            "description": "Certification délivrée par l'Agence Nationale de la Sécurité des Systèmes d'Information (ANSSI) attestant des connaissances fondamentales en matière de sécurité numérique et d'hygiène numérique."
-        },
-        {
-            "titre": "Fondamenttaux de la sécurité numérique",
-            "organisme": "SecNum académie (ANSSI)",
-            "image": "./assets/certifications/Certification_Ansii_Thomas-THONY.png",
-            "description": "Certification délivrée par l'Agence Nationale de la Sécurité des Systèmes d'Information (ANSSI) attestant des connaissances fondamentales en matière de sécurité numérique et d'hygiène numérique."
-        },
-        {
-            "titre": "Fondamenttaux de la sécurité numérique",
-            "organisme": "SecNum académie (ANSSI)",
-            "image": "./assets/certifications/Certification_Ansii_Thomas-THONY.png",
-            "description": "Certification délivrée par l'Agence Nationale de la Sécurité des Systèmes d'Information (ANSSI) attestant des connaissances fondamentales en matière de sécurité numérique et d'hygiène numérique."
+            "titre": "Le RGPD et ses notions clés",
+            "organisme": "Atelier RGPD",
+            "image": "https://www.linkedin.com/in/thomas-thony/details/certifications/urn:li:fsd_profileCertification:(ACoAAEOOyGQB9pXbXiMCf-3zxjHsTYw45ihUsZ8,726468946)/treasury",
+            "description": "Certification délivrée par l'Atelier RGPD, attestant des connaissances fondamentales sur le Règlement Général sur la Protection des Données (RGPD), y compris les principes de protection des données, les droits des individus, et les obligations des organisations."
         }
     ]
 }

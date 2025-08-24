@@ -14,7 +14,7 @@ function Header() {
                 <Link to="/apropos">À propos</Link>
               </li>
               <li className="navbar-item">
-                <Link to="/404">Licences et certifications</Link>
+                <Link to="/certifications">Licences et certifications</Link>
               </li>      
               <li className="navbar-item">
                 <Link to="/projets">Mes projets</Link>
