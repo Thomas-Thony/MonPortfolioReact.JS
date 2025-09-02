@@ -33,6 +33,6 @@ Pour le bon foncitonnement du portfolio, plusieurs librairies externes ont été
 ### Déploiment en ligne
 Le portfolio est disponible en ligne à l'adresse suivante : <b>https://thomas-thony.netlify.app</b>
 
-Hébergement : 
+<em>Hébergement :</em> 
 
 Netlify (Gratuit)
