@@ -1,0 +1,41 @@
+.container-experiences{
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #31363f;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.titre-experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.titre-experience::after{
+    content: '';
+    bottom: 0;
+    right: 50%;
+    width: 0;
+    height: 4px;
+    border-radius: 2px 0 0 2px;
+    background-color: white;
+    transition: 0.25s;
+}
+
+.titre-experience::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 4px;
+    border-radius: 0 2px 2px 0;
+    background-color: white;
+    transition: 0.25s;
+}
