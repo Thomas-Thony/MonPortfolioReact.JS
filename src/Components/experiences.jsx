@@ -4,8 +4,8 @@ import "./styles/experiences.css";
 function Experiences() {
     return (
         <>
+            <h1 className="titre-page">Expériences</h1>  
             <div className="container-experiences">
-                <h1>Expériences</h1>
                 <div className="titre-experience">
                     <h2>Stage de développeur logiciel - Armée de l'air et de l'espace </h2>
                 </div>
@@ -19,10 +19,11 @@ function Experiences() {
                 <div className="description-experience">
                     <p>
                         Développement d'un logiciel interne de simulation d'opérations aériennes basé sur Unreal Engine 5 (Blueprint et C++).
-                        Mon rôle consistait à convevoir et améliorer les interfaces utilisateurs ?
+                        Mon rôle consistait à convevoir et améliorer les interfaces utilisateurs afin d'avoir une meilleure ésthétique et ergonomie du logiciel.
                     </p>  
                 </div>
                 <div className="images-experience">
+                    <h2>Outils utilisés :</h2>
                     <p>Unreal Engine 5</p>
                     <p>C++</p>
                     <p>Git</p>
