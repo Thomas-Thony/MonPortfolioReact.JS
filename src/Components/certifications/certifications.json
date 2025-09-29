@@ -23,6 +23,18 @@
             "organisme": "Atelier RGPD",
             "image": "https://www.linkedin.com/in/thomas-thony/details/certifications/urn:li:fsd_profileCertification:(ACoAAEOOyGQB9pXbXiMCf-3zxjHsTYw45ihUsZ8,726468946)/treasury",
             "description": "Certification délivrée par l'Atelier RGPD, attestant des connaissances fondamentales sur le Règlement Général sur la Protection des Données (RGPD), y compris les principes de protection des données, les droits des individus, et les obligations des organisations."
+        },
+        {
+            "titre": "Sécurisez vos applications web avec l'OWASP",
+            "organisme": "OpenClassrooms",
+            "image": "https://openclassrooms.com/fr/courses/6179306-securisez-vos-applications-web-avec-lowasp",
+            "description": "Cours OpenClassrooms sur la sécurisation des applications web en utilisant les meilleures pratiques de l'OWASP (Open Web Application Security Project), couvrant les vulnérabilités courantes et les techniques de mitigation."
+        },
+        {
+            "titre": "Augmentez votre trafic grâce au référencement naturel (SEO)",
+            "organisme": "OpenClassrooms",
+            "image": "https://openclassrooms.com/fr/courses/5561431-augmentez-votre-trafic-grace-au-referencement-naturel-seo",
+            "description": "Cours OpenClassrooms sur l'optimisation du référencement naturel (SEO) pour améliorer la visibilité des sites web sur les moteurs de recherche, couvrant les techniques de base et les stratégies avancées."
         }
     ]
 }

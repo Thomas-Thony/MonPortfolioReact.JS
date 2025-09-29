@@ -13,8 +13,8 @@ function Experiences() {
                     <h3>Mai 2025 - Juin 2025</h3>
                     <h4>2 Mois</h4>
                 </div>
-                <p>
-                    Attention ! Toutes les informations présentes dans cet article sont trouvables sur internet (Sauf pour le logiciel sur lequel je travaille mais aucune habilitation n’est requise (NP =&gt; Non Protégé)).
+                <p className="avertissement">
+                    Attention ! Toutes les informations présentes dans cet article sont trouvables sur internet <br/>(Sauf pour le logiciel sur lequel je travaille mais aucune habilitation n’est requise (NP =&gt; Non Protégé)).
                 </p>
                 <div className="description-experience">
                     <p>
