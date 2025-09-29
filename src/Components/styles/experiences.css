@@ -4,6 +4,7 @@
     background-color: #31363f;
     border-radius: 10px;
     margin-bottom: 3rem;
+    max-width: 800px;
     color: white;
 }
 
@@ -38,4 +39,16 @@
     border-radius: 0 2px 2px 0;
     background-color: white;
     transition: 0.25s;
+}
+
+.date-experience{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.description-experience{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
 }
