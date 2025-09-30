@@ -22,14 +22,16 @@ function Experiences() {
                         Mon rôle consistait à convevoir et améliorer les interfaces utilisateurs afin d'avoir une meilleure ésthétique et ergonomie du logiciel.
                     </p>  
                 </div>
+
+                <h2>Outils utilisés :</h2>
+                
                 <div className="images-experience">
-                    <h2>Outils utilisés :</h2>
-                    <p>Unreal Engine 5</p>
-                    <p>C++</p>
-                    <p>Git</p>
-                    <p>Github</p>
-                    <p>Visual Studio</p>
-                    <p>Figma</p>
+                    <img className="image-technologie" src="/assets/UE5.png"/>
+                    <img className="image-technologie" src="/assets/cpp.png" />
+                    <img className="image-technologie" src="/assets/git.png" />
+                    <img className="image-technologie" src="/assets/github-computer-icons.png" />
+                    <img className="image-technologie" src="/assets/visual-studio.png" />
+                    <img className="image-technologie" src="/assets/figma.svg" />
                 </div>
                 <div className="travaux-experience">
                     <img src="/assets/image-3.png"/>
