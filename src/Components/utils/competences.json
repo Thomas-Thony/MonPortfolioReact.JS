@@ -47,6 +47,11 @@
                 "nom": "Unity 2D/C#",
                 "image": "./assets/c-sharp.png",
                 "description" : "C# est un langage de programmation orienté objet développé par Microsoft, principalement utilisé pour la création d’applications Windows, de jeux vidéo avec Unity et de solutions web avec .NET. Il se distingue par sa robustesse, sa gestion efficace de la mémoire et ses fonctionnalités modernes adaptées au développement d’applications performantes et sécurisées. Grâce à son intégration dans l’écosystème Microsoft, C# est un choix privilégié pour les entreprises et les développeurs souhaitant concevoir des logiciels professionnels et évolutifs."
+            },
+            {
+                "nom": "Java",
+                "image": "./assets/java.png",
+                "description" : "Java est un langage de programmation orienté objet, conçu pour être portable, sécurisé et robuste. Il est largement utilisé pour le développement d'applications d'entreprise, d'applications mobiles Android, de systèmes embarqués et de solutions web. Grâce à sa machine virtuelle (JVM), Java permet aux développeurs d'écrire du code une seule fois et de l'exécuter sur n'importe quelle plateforme compatible, ce qui en fait un choix populaire pour les projets nécessitant une grande flexibilité et une compatibilité multiplateforme."
             }
         ]
     }
