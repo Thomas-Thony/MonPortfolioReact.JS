@@ -32,8 +32,8 @@ function Experiences() {
                     <p>Figma</p>
                 </div>
                 <div className="travaux-experience">
-                    <img src="/public/assets/image-3.png"/>
-                    <img src="/public/assets/image-4.png"/>
+                    <img src="/assets/image-3.png"/>
+                    <img src="/assets/image-4.png"/>
                 </div>
             </div>
         </>
