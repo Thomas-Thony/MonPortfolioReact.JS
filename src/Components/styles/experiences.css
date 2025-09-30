@@ -83,10 +83,30 @@
     margin: 1rem;
 }
 
+.image-technologie p.titre-technologie{
+    opacity: 0;
+}
+
 .image-technologie{
-    width: auto;
+    width: 100px;
     height: 100px;
     margin: 0 10px;
+}
+
+.image-technologie img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.image-technologie:hover{
+    transform: scale(1.1) translateY(-10px);
+    transition: 0.3s;
+}
+
+.image-technologie:hover p.titre-technologie{
+    opacity: 1;
+    transition: 0.3s;
 }
 
 .figure-experience{

@@ -26,12 +26,32 @@ function Experiences() {
                 <h2 className="titre-image-technologie">Outils utilisés :</h2>
                 
                 <div className="images-experience">
-                    <img className="image-technologie" src="/assets/UE5.png"/>
-                    <img className="image-technologie" src="/assets/cpp.png" />
-                    <img className="image-technologie" src="/assets/git.png" />
-                    <img className="image-technologie" src="/assets/github-computer-icons.png" />
-                    <img className="image-technologie" src="/assets/visual-studio.png" />
-                    <img className="image-technologie" src="/assets/figma.svg" />
+                    <div className="image-technologie">
+                        <img src="/assets/UE5.png" />
+                        <p className="titre-technologie">Unreal Engine 5</p>
+                    </div>
+                    <div className="image-technologie">
+                        <img src="/assets/cpp.png" />
+                        <p className="titre-technologie">C++</p>
+                    </div>
+                    <div className="image-technologie">
+                        <img src="/assets/git.png"/>
+                        <p className="titre-technologie">Git</p>
+                    </div>
+
+                    <div className="image-technologie">
+                        <img src="/assets/github-computer-icons.png"/>
+                        <p className="titre-technologie">Github</p>
+                    </div>
+
+                    <div className="image-technologie">
+                        <img src="/assets/visual-studio.png" />
+                        <p className="titre-technologie">Visual Studio</p>
+                    </div>
+                    <div className="image-technologie">
+                        <img className="image-technologie" src="/assets/figma.svg" />
+                        <p className="titre-technologie">Figma</p>
+                    </div>
                 </div>
                 <div className="travaux-experience">
                     <figure className="figure-experience">
