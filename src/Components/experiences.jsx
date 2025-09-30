@@ -23,7 +23,7 @@ function Experiences() {
                     </p>  
                 </div>
 
-                <h2>Outils utilisés :</h2>
+                <h2 className="titre-image-technologie">Outils utilisés :</h2>
                 
                 <div className="images-experience">
                     <img className="image-technologie" src="/assets/UE5.png"/>
@@ -34,8 +34,14 @@ function Experiences() {
                     <img className="image-technologie" src="/assets/figma.svg" />
                 </div>
                 <div className="travaux-experience">
-                    <img src="/assets/image-3.png"/>
-                    <img src="/assets/image-4.png"/>
+                    <figure className="figure-experience">
+                        <img src="/assets/image-3.png"/>
+                        <figcaption>Interface de controle du drone.</figcaption>
+                    </figure>
+                    <figure className="figure-experience">
+                        <img src="/assets/image-4.png"/>
+                        <figcaption>Interface de gestion de scénario d'entrainement.</figcaption>
+                    </figure>
                 </div>
             </div>
         </>
