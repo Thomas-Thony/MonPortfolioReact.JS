@@ -50,6 +50,13 @@
     transition: 0.25s;
 }
 
+.logo-experience{
+    width: 200px;
+    height: auto;
+    display: flex;
+    padding-right: 50px;
+}
+
 .date-experience{
     font-size: 18px;
     font-weight: 500;

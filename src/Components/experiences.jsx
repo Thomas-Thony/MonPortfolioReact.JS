@@ -8,6 +8,10 @@ function Experiences() {
             <div className="container-experiences">
                 <div className="titre-experience">
                     <h2>Stage de développeur logiciel - Armée de l'air et de l'espace </h2>
+                    <div className="logo-experience">
+                        <img src="/assets/Logo_de_l'Armée_de_l'Air_et_de_l'Espace.png" alt="Logo Armée de l'air et de l'espace" className="logo-experience" />
+                        <img src="/assets/Logo_CASPOA.png" alt="Logo Ministère des armées" className="logo-experience" />
+                    </div>
                 </div>
                 <div className="date-experience">
                     <h3>Mai 2025 - Juin 2025</h3>
