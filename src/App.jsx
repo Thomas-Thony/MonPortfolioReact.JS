@@ -21,7 +21,7 @@ const App = () => {
             <div className="container">
               <Routes>
               {/*Liens du header*/}
-                <Route path="/" element={<Carte prenom="Thomas" nom="Thony" age="18" role="Développeur Full-Stack" lienA={"https://linkedin.com/in/thomas-thony"} lienB={"https://github.com/Thomas-Thony"} />} />
+                <Route path="/" element={<Carte prenom="Thomas" nom="Thony" age="19" role="Développeur Full-Stack" lienA={"https://linkedin.com/in/thomas-thony"} lienB={"https://github.com/Thomas-Thony"} />} />
                 <Route path="/apropos" element={<Apropos />} />
                 <Route path="/experiences" element={<Experiences/>} />
                 <Route path="/projets" element={<Projets />} />
